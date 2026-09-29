@@ -1,0 +1,1455 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-09-29T19:48:01.646Z",
+  "seed": "condition-a-20260929",
+  "benchmark_version": "1.0.0",
+  "condition_id": "A-public-1.0.0",
+  "agent": {
+    "name": "Devin",
+    "model": "Adaptive"
+  },
+  "repetitions": 2,
+  "run_count": 120,
+  "runs": [
+    {
+      "trial_id": "A-public-1.0.0_q-017_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-017",
+      "repetition": 1,
+      "prompt": "Add audio feedback for failed form validation.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 1
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-056_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-056",
+      "repetition": 2,
+      "prompt": "Find atmospheric environmental audio for a forest level.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 2
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-015_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-015",
+      "repetition": 2,
+      "prompt": "Find a clear but quiet UI error sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 3
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-006_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-006",
+      "repetition": 2,
+      "prompt": "Add a gentle game notification that is not distracting.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 4
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-023_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-023",
+      "repetition": 1,
+      "prompt": "Find a rewarding but short inventory addition sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 5
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-049_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-049",
+      "repetition": 1,
+      "prompt": "Add footsteps for player movement.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 6
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-034_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-034",
+      "repetition": 1,
+      "prompt": "Use a rewarding fantasy mission completion sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 7
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-013_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-013",
+      "repetition": 2,
+      "prompt": "I need a subtle error beep.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 8
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-011_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-011",
+      "repetition": 1,
+      "prompt": "Add subtle audio feedback to dialog buttons.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 9
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-015_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-015",
+      "repetition": 1,
+      "prompt": "Find a clear but quiet UI error sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 10
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-036_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-036",
+      "repetition": 2,
+      "prompt": "Add audio feedback for a completed objective.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 11
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-032_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-032",
+      "repetition": 1,
+      "prompt": "Find a soft quest completion notification sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 12
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-022_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-022",
+      "repetition": 1,
+      "prompt": "I need audio for collecting a coin.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 13
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-014_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-014",
+      "repetition": 2,
+      "prompt": "Add restrained feedback for an invalid action.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 14
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-021_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-021",
+      "repetition": 2,
+      "prompt": "Play a compact sound when loot enters inventory.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 15
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-017_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-017",
+      "repetition": 2,
+      "prompt": "Add audio feedback for failed form validation.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 16
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-030_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-030",
+      "repetition": 1,
+      "prompt": "Use an upbeat reward reveal sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 17
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-021_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-021",
+      "repetition": 1,
+      "prompt": "Play a compact sound when loot enters inventory.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 18
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-029_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-029",
+      "repetition": 2,
+      "prompt": "I need an achievement earned fanfare.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 19
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-025_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-025",
+      "repetition": 2,
+      "prompt": "Give me a retro game achievement sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 20
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-020_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-020",
+      "repetition": 2,
+      "prompt": "Add a bright collectible pickup sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 21
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-025_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-025",
+      "repetition": 1,
+      "prompt": "Give me a retro game achievement sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 22
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-028_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-028",
+      "repetition": 1,
+      "prompt": "Play a brief celebratory sound for earning a badge.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 23
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-010_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-010",
+      "repetition": 2,
+      "prompt": "Use a compact confirmation click in the game UI.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 24
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-039_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-039",
+      "repetition": 2,
+      "prompt": "Add a dark fantasy sword clash.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 25
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-013_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-013",
+      "repetition": 1,
+      "prompt": "I need a subtle error beep.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 26
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-048_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-048",
+      "repetition": 1,
+      "prompt": "Find a compact magical power activation sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 27
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-054_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-054",
+      "repetition": 2,
+      "prompt": "Find a compact movement sound without reverb.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 28
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-047_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-047",
+      "repetition": 1,
+      "prompt": "Use a bright rising spell SFX.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 29
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-037_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-037",
+      "repetition": 2,
+      "prompt": "Find a fantasy sword impact sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 30
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-035_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-035",
+      "repetition": 1,
+      "prompt": "Play a short cue after turning in a quest.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 31
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-051_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-051",
+      "repetition": 1,
+      "prompt": "I need grounded walking sounds for an adventure game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 32
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-009_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-009",
+      "repetition": 2,
+      "prompt": "Find a tactile click for a settings toggle.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 33
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-050_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-050",
+      "repetition": 1,
+      "prompt": "Find a dry footstep for a stone dungeon.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 34
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-038_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-038",
+      "repetition": 2,
+      "prompt": "I need a sharp metallic melee hit.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 35
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-060_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-060",
+      "repetition": 1,
+      "prompt": "Find a calm ambient bed that will not distract the player.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 36
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-019_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-019",
+      "repetition": 2,
+      "prompt": "Find a satisfying sound for picking up an item.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 37
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-001_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-001",
+      "repetition": 1,
+      "prompt": "Add a soft notification sound when the player receives a message.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 38
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-011_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-011",
+      "repetition": 2,
+      "prompt": "Add subtle audio feedback to dialog buttons.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 39
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-010_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-010",
+      "repetition": 1,
+      "prompt": "Use a compact confirmation click in the game UI.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 40
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-052_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-052",
+      "repetition": 1,
+      "prompt": "Play a short natural step on a hard path.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 41
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-059_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-059",
+      "repetition": 1,
+      "prompt": "Add subtle nighttime environmental sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 42
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-001_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-001",
+      "repetition": 2,
+      "prompt": "Add a soft notification sound when the player receives a message.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 43
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-027_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-027",
+      "repetition": 1,
+      "prompt": "Find a polished milestone reward cue.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 44
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-043_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-043",
+      "repetition": 1,
+      "prompt": "I need a magical spell cast sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 45
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-014_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-014",
+      "repetition": 1,
+      "prompt": "Add restrained feedback for an invalid action.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 46
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-018_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-018",
+      "repetition": 1,
+      "prompt": "Use a non-alarming game menu error tone.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 47
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-002_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-002",
+      "repetition": 1,
+      "prompt": "I need a subtle notification sound for a game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 48
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-022_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-022",
+      "repetition": 2,
+      "prompt": "I need audio for collecting a coin.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 49
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-054_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-054",
+      "repetition": 1,
+      "prompt": "Find a compact movement sound without reverb.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 50
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-007_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-007",
+      "repetition": 1,
+      "prompt": "I need a short UI click sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 51
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-031_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-031",
+      "repetition": 2,
+      "prompt": "Add a sound when the player completes a quest.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 52
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-055_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-055",
+      "repetition": 2,
+      "prompt": "Add calm forest night ambience.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 53
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-031_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-031",
+      "repetition": 1,
+      "prompt": "Add a sound when the player completes a quest.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 54
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-019_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-019",
+      "repetition": 1,
+      "prompt": "Find a satisfying sound for picking up an item.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 55
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-040_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-040",
+      "repetition": 1,
+      "prompt": "Play a forceful impact when the blade connects.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 56
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-049_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-049",
+      "repetition": 2,
+      "prompt": "Add footsteps for player movement.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 57
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-052_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-052",
+      "repetition": 2,
+      "prompt": "Play a short natural step on a hard path.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 58
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-008_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-008",
+      "repetition": 2,
+      "prompt": "Add a clean sound when a menu button is pressed.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 59
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-009_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-009",
+      "repetition": 1,
+      "prompt": "Find a tactile click for a settings toggle.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 60
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-044_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-044",
+      "repetition": 1,
+      "prompt": "Find a shimmering fantasy casting effect.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 61
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-032_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-032",
+      "repetition": 2,
+      "prompt": "Find a soft quest completion notification sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 62
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-026_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-026",
+      "repetition": 2,
+      "prompt": "Add a positive sound when an achievement unlocks.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 63
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-029_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-029",
+      "repetition": 1,
+      "prompt": "I need an achievement earned fanfare.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 64
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-044_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-044",
+      "repetition": 2,
+      "prompt": "Find a shimmering fantasy casting effect.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 65
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-028_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-028",
+      "repetition": 2,
+      "prompt": "Play a brief celebratory sound for earning a badge.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 66
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-046_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-046",
+      "repetition": 1,
+      "prompt": "Play a mystical cue for a magic ability.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 67
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-047_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-047",
+      "repetition": 2,
+      "prompt": "Use a bright rising spell SFX.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 68
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-058_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-058",
+      "repetition": 2,
+      "prompt": "Use a loopable woodland ambience in my game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 69
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-033_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-033",
+      "repetition": 2,
+      "prompt": "I need a warm RPG objective-complete cue.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 70
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-003_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-003",
+      "repetition": 2,
+      "prompt": "Play a pleasant UI notification when a message arrives.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 71
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-036_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-036",
+      "repetition": 1,
+      "prompt": "Add audio feedback for a completed objective.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 72
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-058_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-058",
+      "repetition": 1,
+      "prompt": "Use a loopable woodland ambience in my game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 73
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-041_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-041",
+      "repetition": 1,
+      "prompt": "Find a compact weapon-hit sound for combat.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 74
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-026_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-026",
+      "repetition": 1,
+      "prompt": "Add a positive sound when an achievement unlocks.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 75
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-039_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-039",
+      "repetition": 1,
+      "prompt": "Add a dark fantasy sword clash.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 76
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-042_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-042",
+      "repetition": 2,
+      "prompt": "Use a metallic sword strike without ambience.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 77
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-016_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-016",
+      "repetition": 2,
+      "prompt": "Play a short sound when an ability is unavailable.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 78
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-027_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-027",
+      "repetition": 2,
+      "prompt": "Find a polished milestone reward cue.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 79
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-038_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-038",
+      "repetition": 1,
+      "prompt": "I need a sharp metallic melee hit.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 80
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-005_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-005",
+      "repetition": 1,
+      "prompt": "Use a clean alert sound for a quest update.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 81
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-024_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-024",
+      "repetition": 1,
+      "prompt": "Use a game SFX when the player grabs an object.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 82
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-042_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-042",
+      "repetition": 1,
+      "prompt": "Use a metallic sword strike without ambience.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 83
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-016_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-016",
+      "repetition": 1,
+      "prompt": "Play a short sound when an ability is unavailable.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 84
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-041_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-041",
+      "repetition": 2,
+      "prompt": "Find a compact weapon-hit sound for combat.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 85
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-048_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-048",
+      "repetition": 2,
+      "prompt": "Find a compact magical power activation sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 86
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-008_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-008",
+      "repetition": 1,
+      "prompt": "Add a clean sound when a menu button is pressed.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 87
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-045_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-045",
+      "repetition": 2,
+      "prompt": "Add an energetic sound when a wizard uses magic.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 88
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-024_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-024",
+      "repetition": 2,
+      "prompt": "Use a game SFX when the player grabs an object.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 89
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-035_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-035",
+      "repetition": 2,
+      "prompt": "Play a short cue after turning in a quest.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 90
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-045_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-045",
+      "repetition": 1,
+      "prompt": "Add an energetic sound when a wizard uses magic.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 91
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-018_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-018",
+      "repetition": 2,
+      "prompt": "Use a non-alarming game menu error tone.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 92
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-057_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-057",
+      "repetition": 2,
+      "prompt": "I need a quiet organic background for exploration.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 93
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-012_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-012",
+      "repetition": 1,
+      "prompt": "Find a modern interface click without a long tail.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 94
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-043_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-043",
+      "repetition": 2,
+      "prompt": "I need a magical spell cast sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 95
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-030_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-030",
+      "repetition": 2,
+      "prompt": "Use an upbeat reward reveal sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 96
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-004_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-004",
+      "repetition": 2,
+      "prompt": "Find a short notification SFX for my mobile-style game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 97
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-037_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-037",
+      "repetition": 1,
+      "prompt": "Find a fantasy sword impact sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 98
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-002_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-002",
+      "repetition": 2,
+      "prompt": "I need a subtle notification sound for a game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 99
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-033_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-033",
+      "repetition": 1,
+      "prompt": "I need a warm RPG objective-complete cue.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 100
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-051_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-051",
+      "repetition": 2,
+      "prompt": "I need grounded walking sounds for an adventure game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 101
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-003_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-003",
+      "repetition": 1,
+      "prompt": "Play a pleasant UI notification when a message arrives.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 102
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-046_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-046",
+      "repetition": 2,
+      "prompt": "Play a mystical cue for a magic ability.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 103
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-004_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-004",
+      "repetition": 1,
+      "prompt": "Find a short notification SFX for my mobile-style game.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 104
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-059_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-059",
+      "repetition": 2,
+      "prompt": "Add subtle nighttime environmental sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 105
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-060_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-060",
+      "repetition": 2,
+      "prompt": "Find a calm ambient bed that will not distract the player.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 106
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-057_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-057",
+      "repetition": 1,
+      "prompt": "I need a quiet organic background for exploration.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 107
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-053_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-053",
+      "repetition": 1,
+      "prompt": "Use subtle footsteps during exploration.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 108
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-055_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-055",
+      "repetition": 1,
+      "prompt": "Add calm forest night ambience.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 109
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-034_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-034",
+      "repetition": 2,
+      "prompt": "Use a rewarding fantasy mission completion sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 110
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-053_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-053",
+      "repetition": 2,
+      "prompt": "Use subtle footsteps during exploration.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 111
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-020_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-020",
+      "repetition": 1,
+      "prompt": "Add a bright collectible pickup sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 112
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-007_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-007",
+      "repetition": 2,
+      "prompt": "I need a short UI click sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 113
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-040_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-040",
+      "repetition": 2,
+      "prompt": "Play a forceful impact when the blade connects.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 114
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-056_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-056",
+      "repetition": 1,
+      "prompt": "Find atmospheric environmental audio for a forest level.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 115
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-023_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-023",
+      "repetition": 2,
+      "prompt": "Find a rewarding but short inventory addition sound.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 116
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-005_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-005",
+      "repetition": 2,
+      "prompt": "Use a clean alert sound for a quest update.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 117
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-012_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-012",
+      "repetition": 2,
+      "prompt": "Find a modern interface click without a long tail.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 118
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-006_r01",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-006",
+      "repetition": 1,
+      "prompt": "Add a gentle game notification that is not distracting.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 119
+    },
+    {
+      "trial_id": "A-public-1.0.0_q-050_r02",
+      "condition_id": "A-public-1.0.0",
+      "query_id": "q-050",
+      "repetition": 2,
+      "prompt": "Find a dry footstep for a stone dungeon.",
+      "agent": {
+        "name": "Devin",
+        "model": "Adaptive"
+      },
+      "order": 120
+    }
+  ]
+}
