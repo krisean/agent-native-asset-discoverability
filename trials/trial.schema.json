@@ -1,0 +1,11 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"Independent agent trial","type":"object",
+  "required":["trial_id","timestamp","condition_id","query_id","prompt","agent","our_library_discovered","our_asset_retrieved","our_asset_selected","our_asset_downloaded","our_asset_integrated","license_checked","audio_inspected","final_outcome"],
+  "properties":{
+    "trial_id":{"type":"string"},"timestamp":{"type":"string","format":"date-time"},"condition_id":{"type":"string"},"query_id":{"type":"string"},"prompt":{"type":"string"},
+    "agent":{"type":"object","required":["name","model"],"properties":{"name":{"type":"string"},"model":{"type":"string"},"version":{"type":["string","null"]},"temperature":{"type":["number","null"]},"configuration":{"type":"object"}}},
+    "environment":{"type":"object"},"search_queries":{"type":"array","items":{"type":"string"}},"domains_visited":{"type":"array","items":{"type":"string"}},"assets_considered":{"type":"array","items":{"type":"object"}},
+    "our_library_discovered":{"type":"boolean"},"our_asset_retrieved":{"type":"boolean"},"our_asset_selected":{"type":"boolean"},"our_asset_downloaded":{"type":"boolean"},"our_asset_integrated":{"type":"boolean"},"license_checked":{"type":"boolean"},"license_comprehension":{"enum":["correct","incorrect","not_stated"]},"audio_inspected":{"type":"boolean"},"incorrect_selection":{"type":["boolean","null"]},
+    "inspection_evidence":{"type":["string","null"]},"selection_reason":{"type":["string","null"]},"competing_asset_selected":{"type":["object","null"]},"source_attribution":{"type":["string","null"]},"final_outcome":{"type":"string"},"raw_log_path":{"type":["string","null"]},"raw_log_sha256":{"type":["string","null"]},"excluded":{"type":"boolean"},"exclusion_reason":{"type":["string","null"]}
+  }
+}

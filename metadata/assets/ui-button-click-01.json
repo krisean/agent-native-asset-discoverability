@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ui-button-click-01",
+  "slug": "button-click-01",
+  "name": "UI Button Click 01",
+  "type": "sound_effect",
+  "category": "ui",
+  "subcategory": "button-click",
+  "description": "A short, clean, tactile ui button click designed for menu button, settings toggle, dialog confirmation. Variation 01 has audibly distinct timing and tone.",
+  "use_cases": [
+    "menu button",
+    "settings toggle",
+    "dialog confirmation"
+  ],
+  "character": [
+    "short",
+    "clean",
+    "tactile"
+  ],
+  "mood": [
+    "short",
+    "clean"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 0.16,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -8.55,
+    "rms_dbfs": -26.12,
+    "loudness_lufs_estimate": -26.82,
+    "zero_crossing_rate": 0.42857,
+    "spectral_centroid_hz": 10285,
+    "spectral_rolloff_hz": 19027,
+    "transient_density_per_second": 356.25,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 17.57,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/ui/button-click/button-click-01.wav",
+    "ogg": "/media/ui/button-click/button-click-01.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/ui/button-click/button-click-01",
+  "tags": [
+    "ui",
+    "button-click",
+    "game audio",
+    "sound effect",
+    "short",
+    "clean",
+    "tactile",
+    "menu button",
+    "settings toggle",
+    "dialog confirmation"
+  ]
+}

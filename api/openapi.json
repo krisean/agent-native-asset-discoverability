@@ -1,0 +1,9 @@
+{
+  "openapi": "3.1.0",
+  "info": {"title": "Agent-Native Sound Asset API", "version": "1.0.0", "description": "Search legitimate game sound effects with semantic, technical, provenance, and license metadata."},
+  "paths": {
+    "/api/search": {"get": {"summary": "Search assets", "parameters": [{"name":"q","in":"query","required":true,"schema":{"type":"string"}}, {"name":"limit","in":"query","schema":{"type":"integer","minimum":1,"maximum":50,"default":10}}], "responses":{"200":{"description":"Ranked assets"}}}},
+    "/api/assets/{id}": {"get": {"summary":"Get canonical asset JSON", "parameters":[{"name":"id","in":"path","required":true,"schema":{"type":"string"}}], "responses":{"200":{"description":"Asset record"},"404":{"description":"Unknown asset"}}}},
+    "/api/categories": {"get": {"summary":"List categories", "responses":{"200":{"description":"Category counts"}}}}
+  }
+}

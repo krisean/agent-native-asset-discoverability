@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ui-error-01",
+  "slug": "error-01",
+  "name": "Subtle UI Error 01",
+  "type": "sound_effect",
+  "category": "ui",
+  "subcategory": "error",
+  "description": "A subtle, restrained, clear subtle ui error designed for invalid action, form validation, unavailable ability. Variation 01 has audibly distinct timing and tone.",
+  "use_cases": [
+    "invalid action",
+    "form validation",
+    "unavailable ability"
+  ],
+  "character": [
+    "subtle",
+    "restrained",
+    "clear"
+  ],
+  "mood": [
+    "subtle",
+    "restrained"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 0.38,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -10.46,
+    "rms_dbfs": -21.59,
+    "loudness_lufs_estimate": -22.29,
+    "zero_crossing_rate": 0.01044,
+    "spectral_centroid_hz": 1886,
+    "spectral_rolloff_hz": 3488,
+    "transient_density_per_second": 115.79,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 11.13,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/ui/error/error-01.wav",
+    "ogg": "/media/ui/error/error-01.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/ui/error/error-01",
+  "tags": [
+    "ui",
+    "error",
+    "game audio",
+    "sound effect",
+    "subtle",
+    "restrained",
+    "clear",
+    "invalid action",
+    "form validation",
+    "unavailable ability"
+  ]
+}

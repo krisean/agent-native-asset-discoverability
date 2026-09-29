@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "combat-sword-impact-01",
+  "slug": "sword-impact-01",
+  "name": "Fantasy Sword Impact 01",
+  "type": "sound_effect",
+  "category": "combat",
+  "subcategory": "sword-impact",
+  "description": "A sharp, metallic, forceful fantasy sword impact designed for melee hit, sword clash, dark fantasy combat. Variation 01 has audibly distinct timing and tone.",
+  "use_cases": [
+    "melee hit",
+    "sword clash",
+    "dark fantasy combat"
+  ],
+  "character": [
+    "sharp",
+    "metallic",
+    "forceful"
+  ],
+  "mood": [
+    "sharp",
+    "metallic"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "unpitched/percussive"
+  },
+  "derived": {
+    "duration_seconds": 0.58,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -8.47,
+    "rms_dbfs": -25.66,
+    "loudness_lufs_estimate": -26.36,
+    "zero_crossing_rate": 0.44636,
+    "spectral_centroid_hz": 11493,
+    "spectral_rolloff_hz": 21261,
+    "transient_density_per_second": 365.52,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 17.19,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/combat/sword-impact/sword-impact-01.wav",
+    "ogg": "/media/combat/sword-impact/sword-impact-01.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/combat/sword-impact/sword-impact-01",
+  "tags": [
+    "combat",
+    "sword-impact",
+    "game audio",
+    "sound effect",
+    "sharp",
+    "metallic",
+    "forceful",
+    "melee hit",
+    "sword clash",
+    "dark fantasy combat"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "agent-native-asset-discoverability",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reproducible experiment measuring autonomous-agent discovery of semantically described sound effects",
+  "scripts": {
+    "generate": "node scripts/generate-corpus.js && node scripts/generate-queries.js",
+    "start": "node website/server.js",
+    "start:condition-a": "node website/server-condition-a.js",
+    "test": "node --test tests/*.test.js",
+    "analyze": "python analysis/analyze.py",
+    "verify": "npm run generate && npm test && npm run analyze"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "express": "5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

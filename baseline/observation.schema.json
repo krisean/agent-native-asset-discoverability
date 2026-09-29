@@ -1,0 +1,5 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"Search baseline observation","type":"object",
+  "required":["observation_id","timestamp","condition_id","query_id","engine","locale","results","our_library_present"],
+  "properties":{"observation_id":{"type":"string"},"timestamp":{"type":"string","format":"date-time"},"condition_id":{"type":"string"},"query_id":{"type":"string"},"engine":{"type":"string"},"engine_version":{"type":["string","null"]},"locale":{"type":"string"},"geography":{"type":["string","null"]},"results":{"type":"array","items":{"type":"object","required":["rank","title","url","domain"],"properties":{"rank":{"type":"integer","minimum":1},"title":{"type":"string"},"url":{"type":"string"},"domain":{"type":"string"}}},"our_library_present":{"type":"boolean"},"our_library_position":{"type":["integer","null"]},"evidence_path":{"type":["string","null"]}}
+}

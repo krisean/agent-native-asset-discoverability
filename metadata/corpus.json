@@ -1,0 +1,2557 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-09-29T00:00:00Z",
+  "asset_count": 30,
+  "assets": [
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-notification-01",
+      "slug": "notification-01",
+      "name": "Soft UI Notification 01",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "notification",
+      "description": "A soft, pleasant, clean soft ui notification designed for message received, quest update, mobile game notification. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "message received",
+        "quest update",
+        "mobile game notification"
+      ],
+      "character": [
+        "soft",
+        "pleasant",
+        "clean"
+      ],
+      "mood": [
+        "soft",
+        "pleasant"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.72,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -6.03,
+        "rms_dbfs": -18.65,
+        "loudness_lufs_estimate": -19.35,
+        "zero_crossing_rate": 0.02995,
+        "spectral_centroid_hz": 11603,
+        "spectral_rolloff_hz": 21466,
+        "transient_density_per_second": 1834.72,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.62,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/notification/notification-01.wav",
+        "ogg": "/media/ui/notification/notification-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/notification/notification-01",
+      "tags": [
+        "ui",
+        "notification",
+        "game audio",
+        "sound effect",
+        "soft",
+        "pleasant",
+        "clean",
+        "message received",
+        "quest update",
+        "mobile game notification"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-notification-02",
+      "slug": "notification-02",
+      "name": "Soft UI Notification 02",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "notification",
+      "description": "A soft, pleasant, clean soft ui notification designed for message received, quest update, mobile game notification. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "message received",
+        "quest update",
+        "mobile game notification"
+      ],
+      "character": [
+        "soft",
+        "pleasant",
+        "clean"
+      ],
+      "mood": [
+        "soft",
+        "pleasant"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.78,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -4.35,
+        "rms_dbfs": -17.16,
+        "loudness_lufs_estimate": -17.86,
+        "zero_crossing_rate": 0.03163,
+        "spectral_centroid_hz": 12590,
+        "spectral_rolloff_hz": 23292,
+        "transient_density_per_second": 2630.77,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.82,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/notification/notification-02.wav",
+        "ogg": "/media/ui/notification/notification-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/notification/notification-02",
+      "tags": [
+        "ui",
+        "notification",
+        "game audio",
+        "sound effect",
+        "soft",
+        "pleasant",
+        "clean",
+        "message received",
+        "quest update",
+        "mobile game notification"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-notification-03",
+      "slug": "notification-03",
+      "name": "Soft UI Notification 03",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "notification",
+      "description": "A soft, pleasant, clean soft ui notification designed for message received, quest update, mobile game notification. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "message received",
+        "quest update",
+        "mobile game notification"
+      ],
+      "character": [
+        "soft",
+        "pleasant",
+        "clean"
+      ],
+      "mood": [
+        "soft",
+        "pleasant"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.84,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -6.6,
+        "rms_dbfs": -19.58,
+        "loudness_lufs_estimate": -20.28,
+        "zero_crossing_rate": 0.02864,
+        "spectral_centroid_hz": 13144,
+        "spectral_rolloff_hz": 24317,
+        "transient_density_per_second": 1450,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.98,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/notification/notification-03.wav",
+        "ogg": "/media/ui/notification/notification-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/notification/notification-03",
+      "tags": [
+        "ui",
+        "notification",
+        "game audio",
+        "sound effect",
+        "soft",
+        "pleasant",
+        "clean",
+        "message received",
+        "quest update",
+        "mobile game notification"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-button-click-01",
+      "slug": "button-click-01",
+      "name": "UI Button Click 01",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "button-click",
+      "description": "A short, clean, tactile ui button click designed for menu button, settings toggle, dialog confirmation. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "menu button",
+        "settings toggle",
+        "dialog confirmation"
+      ],
+      "character": [
+        "short",
+        "clean",
+        "tactile"
+      ],
+      "mood": [
+        "short",
+        "clean"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.16,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -8.55,
+        "rms_dbfs": -26.12,
+        "loudness_lufs_estimate": -26.82,
+        "zero_crossing_rate": 0.42857,
+        "spectral_centroid_hz": 10285,
+        "spectral_rolloff_hz": 19027,
+        "transient_density_per_second": 356.25,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 17.57,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/button-click/button-click-01.wav",
+        "ogg": "/media/ui/button-click/button-click-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/button-click/button-click-01",
+      "tags": [
+        "ui",
+        "button-click",
+        "game audio",
+        "sound effect",
+        "short",
+        "clean",
+        "tactile",
+        "menu button",
+        "settings toggle",
+        "dialog confirmation"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-button-click-02",
+      "slug": "button-click-02",
+      "name": "UI Button Click 02",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "button-click",
+      "description": "A short, clean, tactile ui button click designed for menu button, settings toggle, dialog confirmation. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "menu button",
+        "settings toggle",
+        "dialog confirmation"
+      ],
+      "character": [
+        "short",
+        "clean",
+        "tactile"
+      ],
+      "mood": [
+        "short",
+        "clean"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.22,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -7.95,
+        "rms_dbfs": -26.05,
+        "loudness_lufs_estimate": -26.75,
+        "zero_crossing_rate": 0.43424,
+        "spectral_centroid_hz": 10226,
+        "spectral_rolloff_hz": 18918,
+        "transient_density_per_second": 422.73,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 18.1,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/button-click/button-click-02.wav",
+        "ogg": "/media/ui/button-click/button-click-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/button-click/button-click-02",
+      "tags": [
+        "ui",
+        "button-click",
+        "game audio",
+        "sound effect",
+        "short",
+        "clean",
+        "tactile",
+        "menu button",
+        "settings toggle",
+        "dialog confirmation"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-button-click-03",
+      "slug": "button-click-03",
+      "name": "UI Button Click 03",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "button-click",
+      "description": "A short, clean, tactile ui button click designed for menu button, settings toggle, dialog confirmation. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "menu button",
+        "settings toggle",
+        "dialog confirmation"
+      ],
+      "character": [
+        "short",
+        "clean",
+        "tactile"
+      ],
+      "mood": [
+        "short",
+        "clean"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.28,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -10.72,
+        "rms_dbfs": -29.58,
+        "loudness_lufs_estimate": -30.28,
+        "zero_crossing_rate": 0.43068,
+        "spectral_centroid_hz": 10861,
+        "spectral_rolloff_hz": 20092,
+        "transient_density_per_second": 125,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 18.86,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/button-click/button-click-03.wav",
+        "ogg": "/media/ui/button-click/button-click-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/button-click/button-click-03",
+      "tags": [
+        "ui",
+        "button-click",
+        "game audio",
+        "sound effect",
+        "short",
+        "clean",
+        "tactile",
+        "menu button",
+        "settings toggle",
+        "dialog confirmation"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-error-01",
+      "slug": "error-01",
+      "name": "Subtle UI Error 01",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "error",
+      "description": "A subtle, restrained, clear subtle ui error designed for invalid action, form validation, unavailable ability. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "invalid action",
+        "form validation",
+        "unavailable ability"
+      ],
+      "character": [
+        "subtle",
+        "restrained",
+        "clear"
+      ],
+      "mood": [
+        "subtle",
+        "restrained"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.38,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -10.46,
+        "rms_dbfs": -21.59,
+        "loudness_lufs_estimate": -22.29,
+        "zero_crossing_rate": 0.01044,
+        "spectral_centroid_hz": 1886,
+        "spectral_rolloff_hz": 3488,
+        "transient_density_per_second": 115.79,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 11.13,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/error/error-01.wav",
+        "ogg": "/media/ui/error/error-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/error/error-01",
+      "tags": [
+        "ui",
+        "error",
+        "game audio",
+        "sound effect",
+        "subtle",
+        "restrained",
+        "clear",
+        "invalid action",
+        "form validation",
+        "unavailable ability"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-error-02",
+      "slug": "error-02",
+      "name": "Subtle UI Error 02",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "error",
+      "description": "A subtle, restrained, clear subtle ui error designed for invalid action, form validation, unavailable ability. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "invalid action",
+        "form validation",
+        "unavailable ability"
+      ],
+      "character": [
+        "subtle",
+        "restrained",
+        "clear"
+      ],
+      "mood": [
+        "subtle",
+        "restrained"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.44,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -8.75,
+        "rms_dbfs": -20.2,
+        "loudness_lufs_estimate": -20.9,
+        "zero_crossing_rate": 0.01211,
+        "spectral_centroid_hz": 2461,
+        "spectral_rolloff_hz": 4553,
+        "transient_density_per_second": 1061.36,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 11.45,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/error/error-02.wav",
+        "ogg": "/media/ui/error/error-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/error/error-02",
+      "tags": [
+        "ui",
+        "error",
+        "game audio",
+        "sound effect",
+        "subtle",
+        "restrained",
+        "clear",
+        "invalid action",
+        "form validation",
+        "unavailable ability"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ui-error-03",
+      "slug": "error-03",
+      "name": "Subtle UI Error 03",
+      "type": "sound_effect",
+      "category": "ui",
+      "subcategory": "error",
+      "description": "A subtle, restrained, clear subtle ui error designed for invalid action, form validation, unavailable ability. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "invalid action",
+        "form validation",
+        "unavailable ability"
+      ],
+      "character": [
+        "subtle",
+        "restrained",
+        "clear"
+      ],
+      "mood": [
+        "subtle",
+        "restrained"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.5,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -11,
+        "rms_dbfs": -22.69,
+        "loudness_lufs_estimate": -23.39,
+        "zero_crossing_rate": 0.00912,
+        "spectral_centroid_hz": 2238,
+        "spectral_rolloff_hz": 4140,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 11.69,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/ui/error/error-03.wav",
+        "ogg": "/media/ui/error/error-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/ui/error/error-03",
+      "tags": [
+        "ui",
+        "error",
+        "game audio",
+        "sound effect",
+        "subtle",
+        "restrained",
+        "clear",
+        "invalid action",
+        "form validation",
+        "unavailable ability"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-item-pickup-01",
+      "slug": "item-pickup-01",
+      "name": "Item Pickup 01",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "item-pickup",
+      "description": "A satisfying, bright, compact item pickup designed for collectible pickup, inventory addition, coin collection. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "collectible pickup",
+        "inventory addition",
+        "coin collection"
+      ],
+      "character": [
+        "satisfying",
+        "bright",
+        "compact"
+      ],
+      "mood": [
+        "satisfying",
+        "bright"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.44,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -9.05,
+        "rms_dbfs": -19.6,
+        "loudness_lufs_estimate": -20.3,
+        "zero_crossing_rate": 0.04159,
+        "spectral_centroid_hz": 6660,
+        "spectral_rolloff_hz": 12321,
+        "transient_density_per_second": 950,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 10.55,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/item-pickup/item-pickup-01.wav",
+        "ogg": "/media/gameplay/item-pickup/item-pickup-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/item-pickup/item-pickup-01",
+      "tags": [
+        "gameplay",
+        "item-pickup",
+        "game audio",
+        "sound effect",
+        "satisfying",
+        "bright",
+        "compact",
+        "collectible pickup",
+        "inventory addition",
+        "coin collection"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-item-pickup-02",
+      "slug": "item-pickup-02",
+      "name": "Item Pickup 02",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "item-pickup",
+      "description": "A satisfying, bright, compact item pickup designed for collectible pickup, inventory addition, coin collection. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "collectible pickup",
+        "inventory addition",
+        "coin collection"
+      ],
+      "character": [
+        "satisfying",
+        "bright",
+        "compact"
+      ],
+      "mood": [
+        "satisfying",
+        "bright"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.5,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -7.47,
+        "rms_dbfs": -18.09,
+        "loudness_lufs_estimate": -18.79,
+        "zero_crossing_rate": 0.04567,
+        "spectral_centroid_hz": 8044,
+        "spectral_rolloff_hz": 14881,
+        "transient_density_per_second": 1906,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 10.62,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/item-pickup/item-pickup-02.wav",
+        "ogg": "/media/gameplay/item-pickup/item-pickup-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/item-pickup/item-pickup-02",
+      "tags": [
+        "gameplay",
+        "item-pickup",
+        "game audio",
+        "sound effect",
+        "satisfying",
+        "bright",
+        "compact",
+        "collectible pickup",
+        "inventory addition",
+        "coin collection"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-item-pickup-03",
+      "slug": "item-pickup-03",
+      "name": "Item Pickup 03",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "item-pickup",
+      "description": "A satisfying, bright, compact item pickup designed for collectible pickup, inventory addition, coin collection. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "collectible pickup",
+        "inventory addition",
+        "coin collection"
+      ],
+      "character": [
+        "satisfying",
+        "bright",
+        "compact"
+      ],
+      "mood": [
+        "satisfying",
+        "bright"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.56,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -9.86,
+        "rms_dbfs": -20.48,
+        "loudness_lufs_estimate": -21.18,
+        "zero_crossing_rate": 0.04515,
+        "spectral_centroid_hz": 9252,
+        "spectral_rolloff_hz": 17116,
+        "transient_density_per_second": 498.21,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 10.62,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/item-pickup/item-pickup-03.wav",
+        "ogg": "/media/gameplay/item-pickup/item-pickup-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/item-pickup/item-pickup-03",
+      "tags": [
+        "gameplay",
+        "item-pickup",
+        "game audio",
+        "sound effect",
+        "satisfying",
+        "bright",
+        "compact",
+        "collectible pickup",
+        "inventory addition",
+        "coin collection"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-achievement-01",
+      "slug": "achievement-01",
+      "name": "Achievement Unlock 01",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "achievement",
+      "description": "A positive, celebratory, polished achievement unlock designed for achievement earned, milestone reached, reward reveal. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "achievement earned",
+        "milestone reached",
+        "reward reveal"
+      ],
+      "character": [
+        "positive",
+        "celebratory",
+        "polished"
+      ],
+      "mood": [
+        "positive",
+        "celebratory"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.05,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -15.16,
+        "rms_dbfs": -26.5,
+        "loudness_lufs_estimate": -27.2,
+        "zero_crossing_rate": 0.02922,
+        "spectral_centroid_hz": 13994,
+        "spectral_rolloff_hz": 25888,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 11.34,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/achievement/achievement-01.wav",
+        "ogg": "/media/gameplay/achievement/achievement-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/achievement/achievement-01",
+      "tags": [
+        "gameplay",
+        "achievement",
+        "game audio",
+        "sound effect",
+        "positive",
+        "celebratory",
+        "polished",
+        "achievement earned",
+        "milestone reached",
+        "reward reveal"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-achievement-02",
+      "slug": "achievement-02",
+      "name": "Achievement Unlock 02",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "achievement",
+      "description": "A positive, celebratory, polished achievement unlock designed for achievement earned, milestone reached, reward reveal. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "achievement earned",
+        "milestone reached",
+        "reward reveal"
+      ],
+      "character": [
+        "positive",
+        "celebratory",
+        "polished"
+      ],
+      "mood": [
+        "positive",
+        "celebratory"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.11,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -13.45,
+        "rms_dbfs": -24.93,
+        "loudness_lufs_estimate": -25.63,
+        "zero_crossing_rate": 0.03132,
+        "spectral_centroid_hz": 15506,
+        "spectral_rolloff_hz": 28687,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 11.48,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/achievement/achievement-02.wav",
+        "ogg": "/media/gameplay/achievement/achievement-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/achievement/achievement-02",
+      "tags": [
+        "gameplay",
+        "achievement",
+        "game audio",
+        "sound effect",
+        "positive",
+        "celebratory",
+        "polished",
+        "achievement earned",
+        "milestone reached",
+        "reward reveal"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-achievement-03",
+      "slug": "achievement-03",
+      "name": "Achievement Unlock 03",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "achievement",
+      "description": "A positive, celebratory, polished achievement unlock designed for achievement earned, milestone reached, reward reveal. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "achievement earned",
+        "milestone reached",
+        "reward reveal"
+      ],
+      "character": [
+        "positive",
+        "celebratory",
+        "polished"
+      ],
+      "mood": [
+        "positive",
+        "celebratory"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.17,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -15.2,
+        "rms_dbfs": -27.27,
+        "loudness_lufs_estimate": -27.97,
+        "zero_crossing_rate": 0.02766,
+        "spectral_centroid_hz": 14606,
+        "spectral_rolloff_hz": 27021,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.07,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/achievement/achievement-03.wav",
+        "ogg": "/media/gameplay/achievement/achievement-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/achievement/achievement-03",
+      "tags": [
+        "gameplay",
+        "achievement",
+        "game audio",
+        "sound effect",
+        "positive",
+        "celebratory",
+        "polished",
+        "achievement earned",
+        "milestone reached",
+        "reward reveal"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-quest-complete-01",
+      "slug": "quest-complete-01",
+      "name": "Quest Complete 01",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "quest-complete",
+      "description": "A warm, rewarding, fantasy quest complete designed for RPG quest completion, objective complete, mission reward. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "RPG quest completion",
+        "objective complete",
+        "mission reward"
+      ],
+      "character": [
+        "warm",
+        "rewarding",
+        "fantasy"
+      ],
+      "mood": [
+        "warm",
+        "rewarding"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.28,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -3.55,
+        "rms_dbfs": -17.91,
+        "loudness_lufs_estimate": -18.61,
+        "zero_crossing_rate": 0.01828,
+        "spectral_centroid_hz": 12711,
+        "spectral_rolloff_hz": 23515,
+        "transient_density_per_second": 1936.72,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 14.36,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/quest-complete/quest-complete-01.wav",
+        "ogg": "/media/gameplay/quest-complete/quest-complete-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/quest-complete/quest-complete-01",
+      "tags": [
+        "gameplay",
+        "quest-complete",
+        "game audio",
+        "sound effect",
+        "warm",
+        "rewarding",
+        "fantasy",
+        "RPG quest completion",
+        "objective complete",
+        "mission reward"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-quest-complete-02",
+      "slug": "quest-complete-02",
+      "name": "Quest Complete 02",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "quest-complete",
+      "description": "A warm, rewarding, fantasy quest complete designed for RPG quest completion, objective complete, mission reward. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "RPG quest completion",
+        "objective complete",
+        "mission reward"
+      ],
+      "character": [
+        "warm",
+        "rewarding",
+        "fantasy"
+      ],
+      "mood": [
+        "warm",
+        "rewarding"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.34,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -2.16,
+        "rms_dbfs": -16.43,
+        "loudness_lufs_estimate": -17.13,
+        "zero_crossing_rate": 0.01983,
+        "spectral_centroid_hz": 14521,
+        "spectral_rolloff_hz": 26864,
+        "transient_density_per_second": 2758.96,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 14.27,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/quest-complete/quest-complete-02.wav",
+        "ogg": "/media/gameplay/quest-complete/quest-complete-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/quest-complete/quest-complete-02",
+      "tags": [
+        "gameplay",
+        "quest-complete",
+        "game audio",
+        "sound effect",
+        "warm",
+        "rewarding",
+        "fantasy",
+        "RPG quest completion",
+        "objective complete",
+        "mission reward"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "gameplay-quest-complete-03",
+      "slug": "quest-complete-03",
+      "name": "Quest Complete 03",
+      "type": "sound_effect",
+      "category": "gameplay",
+      "subcategory": "quest-complete",
+      "description": "A warm, rewarding, fantasy quest complete designed for RPG quest completion, objective complete, mission reward. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "RPG quest completion",
+        "objective complete",
+        "mission reward"
+      ],
+      "character": [
+        "warm",
+        "rewarding",
+        "fantasy"
+      ],
+      "mood": [
+        "warm",
+        "rewarding"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.4,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -4.6,
+        "rms_dbfs": -18.86,
+        "loudness_lufs_estimate": -19.56,
+        "zero_crossing_rate": 0.01693,
+        "spectral_centroid_hz": 13288,
+        "spectral_rolloff_hz": 24583,
+        "transient_density_per_second": 1488.57,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 14.26,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/gameplay/quest-complete/quest-complete-03.wav",
+        "ogg": "/media/gameplay/quest-complete/quest-complete-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/gameplay/quest-complete/quest-complete-03",
+      "tags": [
+        "gameplay",
+        "quest-complete",
+        "game audio",
+        "sound effect",
+        "warm",
+        "rewarding",
+        "fantasy",
+        "RPG quest completion",
+        "objective complete",
+        "mission reward"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "combat-sword-impact-01",
+      "slug": "sword-impact-01",
+      "name": "Fantasy Sword Impact 01",
+      "type": "sound_effect",
+      "category": "combat",
+      "subcategory": "sword-impact",
+      "description": "A sharp, metallic, forceful fantasy sword impact designed for melee hit, sword clash, dark fantasy combat. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "melee hit",
+        "sword clash",
+        "dark fantasy combat"
+      ],
+      "character": [
+        "sharp",
+        "metallic",
+        "forceful"
+      ],
+      "mood": [
+        "sharp",
+        "metallic"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "unpitched/percussive"
+      },
+      "derived": {
+        "duration_seconds": 0.58,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -8.47,
+        "rms_dbfs": -25.66,
+        "loudness_lufs_estimate": -26.36,
+        "zero_crossing_rate": 0.44636,
+        "spectral_centroid_hz": 11493,
+        "spectral_rolloff_hz": 21261,
+        "transient_density_per_second": 365.52,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 17.19,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/combat/sword-impact/sword-impact-01.wav",
+        "ogg": "/media/combat/sword-impact/sword-impact-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/combat/sword-impact/sword-impact-01",
+      "tags": [
+        "combat",
+        "sword-impact",
+        "game audio",
+        "sound effect",
+        "sharp",
+        "metallic",
+        "forceful",
+        "melee hit",
+        "sword clash",
+        "dark fantasy combat"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "combat-sword-impact-02",
+      "slug": "sword-impact-02",
+      "name": "Fantasy Sword Impact 02",
+      "type": "sound_effect",
+      "category": "combat",
+      "subcategory": "sword-impact",
+      "description": "A sharp, metallic, forceful fantasy sword impact designed for melee hit, sword clash, dark fantasy combat. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "melee hit",
+        "sword clash",
+        "dark fantasy combat"
+      ],
+      "character": [
+        "sharp",
+        "metallic",
+        "forceful"
+      ],
+      "mood": [
+        "sharp",
+        "metallic"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "unpitched/percussive"
+      },
+      "derived": {
+        "duration_seconds": 0.64,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -7.05,
+        "rms_dbfs": -24.53,
+        "loudness_lufs_estimate": -25.23,
+        "zero_crossing_rate": 0.43626,
+        "spectral_centroid_hz": 11297,
+        "spectral_rolloff_hz": 20900,
+        "transient_density_per_second": 548.44,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 17.49,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/combat/sword-impact/sword-impact-02.wav",
+        "ogg": "/media/combat/sword-impact/sword-impact-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/combat/sword-impact/sword-impact-02",
+      "tags": [
+        "combat",
+        "sword-impact",
+        "game audio",
+        "sound effect",
+        "sharp",
+        "metallic",
+        "forceful",
+        "melee hit",
+        "sword clash",
+        "dark fantasy combat"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "combat-sword-impact-03",
+      "slug": "sword-impact-03",
+      "name": "Fantasy Sword Impact 03",
+      "type": "sound_effect",
+      "category": "combat",
+      "subcategory": "sword-impact",
+      "description": "A sharp, metallic, forceful fantasy sword impact designed for melee hit, sword clash, dark fantasy combat. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "melee hit",
+        "sword clash",
+        "dark fantasy combat"
+      ],
+      "character": [
+        "sharp",
+        "metallic",
+        "forceful"
+      ],
+      "mood": [
+        "sharp",
+        "metallic"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "unpitched/percussive"
+      },
+      "derived": {
+        "duration_seconds": 0.7,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -9.55,
+        "rms_dbfs": -27.2,
+        "loudness_lufs_estimate": -27.9,
+        "zero_crossing_rate": 0.43748,
+        "spectral_centroid_hz": 11885,
+        "spectral_rolloff_hz": 21988,
+        "transient_density_per_second": 224.29,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 17.65,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/combat/sword-impact/sword-impact-03.wav",
+        "ogg": "/media/combat/sword-impact/sword-impact-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/combat/sword-impact/sword-impact-03",
+      "tags": [
+        "combat",
+        "sword-impact",
+        "game audio",
+        "sound effect",
+        "sharp",
+        "metallic",
+        "forceful",
+        "melee hit",
+        "sword clash",
+        "dark fantasy combat"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "magic-spell-cast-01",
+      "slug": "spell-cast-01",
+      "name": "Magic Spell Cast 01",
+      "type": "sound_effect",
+      "category": "magic",
+      "subcategory": "spell-cast",
+      "description": "A shimmering, mystical, energetic magic spell cast designed for wizard spell, magic ability, fantasy casting. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "wizard spell",
+        "magic ability",
+        "fantasy casting"
+      ],
+      "character": [
+        "shimmering",
+        "mystical",
+        "energetic"
+      ],
+      "mood": [
+        "shimmering",
+        "mystical"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.92,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -10.54,
+        "rms_dbfs": -23.03,
+        "loudness_lufs_estimate": -23.73,
+        "zero_crossing_rate": 0.08099,
+        "spectral_centroid_hz": 12214,
+        "spectral_rolloff_hz": 22596,
+        "transient_density_per_second": 57.61,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.49,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/magic/spell-cast/spell-cast-01.wav",
+        "ogg": "/media/magic/spell-cast/spell-cast-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/magic/spell-cast/spell-cast-01",
+      "tags": [
+        "magic",
+        "spell-cast",
+        "game audio",
+        "sound effect",
+        "shimmering",
+        "mystical",
+        "energetic",
+        "wizard spell",
+        "magic ability",
+        "fantasy casting"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "magic-spell-cast-02",
+      "slug": "spell-cast-02",
+      "name": "Magic Spell Cast 02",
+      "type": "sound_effect",
+      "category": "magic",
+      "subcategory": "spell-cast",
+      "description": "A shimmering, mystical, energetic magic spell cast designed for wizard spell, magic ability, fantasy casting. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "wizard spell",
+        "magic ability",
+        "fantasy casting"
+      ],
+      "character": [
+        "shimmering",
+        "mystical",
+        "energetic"
+      ],
+      "mood": [
+        "shimmering",
+        "mystical"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 0.98,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -8.92,
+        "rms_dbfs": -21.61,
+        "loudness_lufs_estimate": -22.31,
+        "zero_crossing_rate": 0.08689,
+        "spectral_centroid_hz": 12759,
+        "spectral_rolloff_hz": 23604,
+        "transient_density_per_second": 310.2,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.69,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/magic/spell-cast/spell-cast-02.wav",
+        "ogg": "/media/magic/spell-cast/spell-cast-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/magic/spell-cast/spell-cast-02",
+      "tags": [
+        "magic",
+        "spell-cast",
+        "game audio",
+        "sound effect",
+        "shimmering",
+        "mystical",
+        "energetic",
+        "wizard spell",
+        "magic ability",
+        "fantasy casting"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "magic-spell-cast-03",
+      "slug": "spell-cast-03",
+      "name": "Magic Spell Cast 03",
+      "type": "sound_effect",
+      "category": "magic",
+      "subcategory": "spell-cast",
+      "description": "A shimmering, mystical, energetic magic spell cast designed for wizard spell, magic ability, fantasy casting. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "wizard spell",
+        "magic ability",
+        "fantasy casting"
+      ],
+      "character": [
+        "shimmering",
+        "mystical",
+        "energetic"
+      ],
+      "mood": [
+        "shimmering",
+        "mystical"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 1.04,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -11.8,
+        "rms_dbfs": -23.97,
+        "loudness_lufs_estimate": -24.67,
+        "zero_crossing_rate": 0.08824,
+        "spectral_centroid_hz": 12289,
+        "spectral_rolloff_hz": 22735,
+        "transient_density_per_second": 4.81,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 12.17,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/magic/spell-cast/spell-cast-03.wav",
+        "ogg": "/media/magic/spell-cast/spell-cast-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/magic/spell-cast/spell-cast-03",
+      "tags": [
+        "magic",
+        "spell-cast",
+        "game audio",
+        "sound effect",
+        "shimmering",
+        "mystical",
+        "energetic",
+        "wizard spell",
+        "magic ability",
+        "fantasy casting"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "movement-footstep-01",
+      "slug": "footstep-01",
+      "name": "Adventure Footstep 01",
+      "type": "sound_effect",
+      "category": "movement",
+      "subcategory": "footstep",
+      "description": "A grounded, dry, natural adventure footstep designed for player movement, stone path, dungeon walking. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "player movement",
+        "stone path",
+        "dungeon walking"
+      ],
+      "character": [
+        "grounded",
+        "dry",
+        "natural"
+      ],
+      "mood": [
+        "grounded",
+        "dry"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "unpitched/percussive"
+      },
+      "derived": {
+        "duration_seconds": 0.31,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -11.63,
+        "rms_dbfs": -28.55,
+        "loudness_lufs_estimate": -29.25,
+        "zero_crossing_rate": 0.06152,
+        "spectral_centroid_hz": 7846,
+        "spectral_rolloff_hz": 14515,
+        "transient_density_per_second": 32.26,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 16.92,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/movement/footstep/footstep-01.wav",
+        "ogg": "/media/movement/footstep/footstep-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/movement/footstep/footstep-01",
+      "tags": [
+        "movement",
+        "footstep",
+        "game audio",
+        "sound effect",
+        "grounded",
+        "dry",
+        "natural",
+        "player movement",
+        "stone path",
+        "dungeon walking"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "movement-footstep-02",
+      "slug": "footstep-02",
+      "name": "Adventure Footstep 02",
+      "type": "sound_effect",
+      "category": "movement",
+      "subcategory": "footstep",
+      "description": "A grounded, dry, natural adventure footstep designed for player movement, stone path, dungeon walking. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "player movement",
+        "stone path",
+        "dungeon walking"
+      ],
+      "character": [
+        "grounded",
+        "dry",
+        "natural"
+      ],
+      "mood": [
+        "grounded",
+        "dry"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "unpitched/percussive"
+      },
+      "derived": {
+        "duration_seconds": 0.37,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -9.01,
+        "rms_dbfs": -28.25,
+        "loudness_lufs_estimate": -28.95,
+        "zero_crossing_rate": 0.06797,
+        "spectral_centroid_hz": 8127,
+        "spectral_rolloff_hz": 15035,
+        "transient_density_per_second": 67.57,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 19.24,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/movement/footstep/footstep-02.wav",
+        "ogg": "/media/movement/footstep/footstep-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/movement/footstep/footstep-02",
+      "tags": [
+        "movement",
+        "footstep",
+        "game audio",
+        "sound effect",
+        "grounded",
+        "dry",
+        "natural",
+        "player movement",
+        "stone path",
+        "dungeon walking"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "movement-footstep-03",
+      "slug": "footstep-03",
+      "name": "Adventure Footstep 03",
+      "type": "sound_effect",
+      "category": "movement",
+      "subcategory": "footstep",
+      "description": "A grounded, dry, natural adventure footstep designed for player movement, stone path, dungeon walking. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "player movement",
+        "stone path",
+        "dungeon walking"
+      ],
+      "character": [
+        "grounded",
+        "dry",
+        "natural"
+      ],
+      "mood": [
+        "grounded",
+        "dry"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": false,
+        "pitch_description": "unpitched/percussive"
+      },
+      "derived": {
+        "duration_seconds": 0.43,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -12.7,
+        "rms_dbfs": -31.94,
+        "loudness_lufs_estimate": -32.64,
+        "zero_crossing_rate": 0.06481,
+        "spectral_centroid_hz": 8137,
+        "spectral_rolloff_hz": 15053,
+        "transient_density_per_second": 4.65,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 19.24,
+        "loopability_estimate": "not loopable",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/movement/footstep/footstep-03.wav",
+        "ogg": "/media/movement/footstep/footstep-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/movement/footstep/footstep-03",
+      "tags": [
+        "movement",
+        "footstep",
+        "game audio",
+        "sound effect",
+        "grounded",
+        "dry",
+        "natural",
+        "player movement",
+        "stone path",
+        "dungeon walking"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "environment-ambient-01",
+      "slug": "ambient-01",
+      "name": "Forest Night Ambience 01",
+      "type": "sound_effect",
+      "category": "environment",
+      "subcategory": "ambient",
+      "description": "A calm, atmospheric, organic forest night ambience designed for game environment, forest level, quiet exploration. Variation 01 has audibly distinct timing and tone.",
+      "use_cases": [
+        "game environment",
+        "forest level",
+        "quiet exploration"
+      ],
+      "character": [
+        "calm",
+        "atmospheric",
+        "organic"
+      ],
+      "mood": [
+        "calm",
+        "atmospheric"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": true,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 4,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -19.38,
+        "rms_dbfs": -32.68,
+        "loudness_lufs_estimate": -33.38,
+        "zero_crossing_rate": 0.20605,
+        "spectral_centroid_hz": 11668,
+        "spectral_rolloff_hz": 21585,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 13.29,
+        "loopability_estimate": "possible with crossfade",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/environment/ambient/ambient-01.wav",
+        "ogg": "/media/environment/ambient/ambient-01.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/environment/ambient/ambient-01",
+      "tags": [
+        "environment",
+        "ambient",
+        "game audio",
+        "sound effect",
+        "calm",
+        "atmospheric",
+        "organic",
+        "game environment",
+        "forest level",
+        "quiet exploration"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "environment-ambient-02",
+      "slug": "ambient-02",
+      "name": "Forest Night Ambience 02",
+      "type": "sound_effect",
+      "category": "environment",
+      "subcategory": "ambient",
+      "description": "A calm, atmospheric, organic forest night ambience designed for game environment, forest level, quiet exploration. Variation 02 has audibly distinct timing and tone.",
+      "use_cases": [
+        "game environment",
+        "forest level",
+        "quiet exploration"
+      ],
+      "character": [
+        "calm",
+        "atmospheric",
+        "organic"
+      ],
+      "mood": [
+        "calm",
+        "atmospheric"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": true,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 4.06,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -17.03,
+        "rms_dbfs": -31.04,
+        "loudness_lufs_estimate": -31.74,
+        "zero_crossing_rate": 0.20503,
+        "spectral_centroid_hz": 11079,
+        "spectral_rolloff_hz": 20496,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 14.01,
+        "loopability_estimate": "possible with crossfade",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/environment/ambient/ambient-02.wav",
+        "ogg": "/media/environment/ambient/ambient-02.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/environment/ambient/ambient-02",
+      "tags": [
+        "environment",
+        "ambient",
+        "game audio",
+        "sound effect",
+        "calm",
+        "atmospheric",
+        "organic",
+        "game environment",
+        "forest level",
+        "quiet exploration"
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "environment-ambient-03",
+      "slug": "ambient-03",
+      "name": "Forest Night Ambience 03",
+      "type": "sound_effect",
+      "category": "environment",
+      "subcategory": "ambient",
+      "description": "A calm, atmospheric, organic forest night ambience designed for game environment, forest level, quiet exploration. Variation 03 has audibly distinct timing and tone.",
+      "use_cases": [
+        "game environment",
+        "forest level",
+        "quiet exploration"
+      ],
+      "character": [
+        "calm",
+        "atmospheric",
+        "organic"
+      ],
+      "mood": [
+        "calm",
+        "atmospheric"
+      ],
+      "context": "game development",
+      "intended_application": [
+        "video games",
+        "interactive UI"
+      ],
+      "editorial": {
+        "loopable": true,
+        "pitch_description": "tonal"
+      },
+      "derived": {
+        "duration_seconds": 4.12,
+        "sample_rate_hz": 44100,
+        "bit_depth": 16,
+        "channels": 1,
+        "channel_configuration": "mono",
+        "peak_dbfs": -19.35,
+        "rms_dbfs": -33.5,
+        "loudness_lufs_estimate": -34.2,
+        "zero_crossing_rate": 0.20551,
+        "spectral_centroid_hz": 11217,
+        "spectral_rolloff_hz": 20751,
+        "transient_density_per_second": 0,
+        "estimated_brightness": "bright",
+        "dynamic_range_db": 14.16,
+        "loopability_estimate": "possible with crossfade",
+        "extraction": {
+          "pipeline": "scripts/generate-corpus.js",
+          "algorithm_version": "1.0.0",
+          "source": "decoded PCM WAV master"
+        }
+      },
+      "files": {
+        "wav": "/media/environment/ambient/ambient-03.wav",
+        "ogg": "/media/environment/ambient/ambient-03.ogg"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "attribution_required": false
+      },
+      "provenance": {
+        "generator": "Deterministic procedural synthesis",
+        "seed": 19470523,
+        "generated_at": "2026-09-29T00:00:00Z",
+        "source_recording": false
+      },
+      "canonical_path": "/assets/environment/ambient/ambient-03",
+      "tags": [
+        "environment",
+        "ambient",
+        "game audio",
+        "sound effect",
+        "calm",
+        "atmospheric",
+        "organic",
+        "game environment",
+        "forest level",
+        "quiet exploration"
+      ]
+    }
+  ]
+}

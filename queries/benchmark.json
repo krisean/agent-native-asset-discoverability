@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0.0",
+  "frozen": true,
+  "query_count": 60,
+  "queries": [
+    {
+      "id": "q-001",
+      "intent": "notification",
+      "specificity": "specific",
+      "prompt": "Add a soft notification sound when the player receives a message.",
+      "asset_request": "Add a soft notification sound when the player receives a message.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-002",
+      "intent": "notification",
+      "specificity": "specific",
+      "prompt": "I need a subtle notification sound for a game.",
+      "asset_request": "I need a subtle notification sound for a game.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-003",
+      "intent": "notification",
+      "specificity": "broad",
+      "prompt": "Play a pleasant UI notification when a message arrives.",
+      "asset_request": "Play a pleasant UI notification when a message arrives.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-004",
+      "intent": "notification",
+      "specificity": "specific",
+      "prompt": "Find a short notification SFX for my mobile-style game.",
+      "asset_request": "Find a short notification SFX for my mobile-style game.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-005",
+      "intent": "notification",
+      "specificity": "broad",
+      "prompt": "Use a clean alert sound for a quest update.",
+      "asset_request": "Use a clean alert sound for a quest update.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-006",
+      "intent": "notification",
+      "specificity": "broad",
+      "prompt": "Add a gentle game notification that is not distracting.",
+      "asset_request": "Add a gentle game notification that is not distracting.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-007",
+      "intent": "button_click",
+      "specificity": "specific",
+      "prompt": "I need a short UI click sound.",
+      "asset_request": "I need a short UI click sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-008",
+      "intent": "button_click",
+      "specificity": "broad",
+      "prompt": "Add a clean sound when a menu button is pressed.",
+      "asset_request": "Add a clean sound when a menu button is pressed.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-009",
+      "intent": "button_click",
+      "specificity": "broad",
+      "prompt": "Find a tactile click for a settings toggle.",
+      "asset_request": "Find a tactile click for a settings toggle.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-010",
+      "intent": "button_click",
+      "specificity": "broad",
+      "prompt": "Use a compact confirmation click in the game UI.",
+      "asset_request": "Use a compact confirmation click in the game UI.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-011",
+      "intent": "button_click",
+      "specificity": "specific",
+      "prompt": "Add subtle audio feedback to dialog buttons.",
+      "asset_request": "Add subtle audio feedback to dialog buttons.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-012",
+      "intent": "button_click",
+      "specificity": "specific",
+      "prompt": "Find a modern interface click without a long tail.",
+      "asset_request": "Find a modern interface click without a long tail.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-013",
+      "intent": "ui_error",
+      "specificity": "specific",
+      "prompt": "I need a subtle error beep.",
+      "asset_request": "I need a subtle error beep.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-014",
+      "intent": "ui_error",
+      "specificity": "broad",
+      "prompt": "Add restrained feedback for an invalid action.",
+      "asset_request": "Add restrained feedback for an invalid action.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-015",
+      "intent": "ui_error",
+      "specificity": "specific",
+      "prompt": "Find a clear but quiet UI error sound.",
+      "asset_request": "Find a clear but quiet UI error sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-016",
+      "intent": "ui_error",
+      "specificity": "specific",
+      "prompt": "Play a short sound when an ability is unavailable.",
+      "asset_request": "Play a short sound when an ability is unavailable.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-017",
+      "intent": "ui_error",
+      "specificity": "broad",
+      "prompt": "Add audio feedback for failed form validation.",
+      "asset_request": "Add audio feedback for failed form validation.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-018",
+      "intent": "ui_error",
+      "specificity": "broad",
+      "prompt": "Use a non-alarming game menu error tone.",
+      "asset_request": "Use a non-alarming game menu error tone.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-019",
+      "intent": "item_pickup",
+      "specificity": "broad",
+      "prompt": "Find a satisfying sound for picking up an item.",
+      "asset_request": "Find a satisfying sound for picking up an item.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-020",
+      "intent": "item_pickup",
+      "specificity": "broad",
+      "prompt": "Add a bright collectible pickup sound.",
+      "asset_request": "Add a bright collectible pickup sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-021",
+      "intent": "item_pickup",
+      "specificity": "broad",
+      "prompt": "Play a compact sound when loot enters inventory.",
+      "asset_request": "Play a compact sound when loot enters inventory.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-022",
+      "intent": "item_pickup",
+      "specificity": "broad",
+      "prompt": "I need audio for collecting a coin.",
+      "asset_request": "I need audio for collecting a coin.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-023",
+      "intent": "item_pickup",
+      "specificity": "specific",
+      "prompt": "Find a rewarding but short inventory addition sound.",
+      "asset_request": "Find a rewarding but short inventory addition sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-024",
+      "intent": "item_pickup",
+      "specificity": "broad",
+      "prompt": "Use a game SFX when the player grabs an object.",
+      "asset_request": "Use a game SFX when the player grabs an object.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-025",
+      "intent": "achievement",
+      "specificity": "broad",
+      "prompt": "Give me a retro game achievement sound.",
+      "asset_request": "Give me a retro game achievement sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-026",
+      "intent": "achievement",
+      "specificity": "broad",
+      "prompt": "Add a positive sound when an achievement unlocks.",
+      "asset_request": "Add a positive sound when an achievement unlocks.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-027",
+      "intent": "achievement",
+      "specificity": "specific",
+      "prompt": "Find a polished milestone reward cue.",
+      "asset_request": "Find a polished milestone reward cue.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-028",
+      "intent": "achievement",
+      "specificity": "broad",
+      "prompt": "Play a brief celebratory sound for earning a badge.",
+      "asset_request": "Play a brief celebratory sound for earning a badge.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-029",
+      "intent": "achievement",
+      "specificity": "broad",
+      "prompt": "I need an achievement earned fanfare.",
+      "asset_request": "I need an achievement earned fanfare.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-030",
+      "intent": "achievement",
+      "specificity": "broad",
+      "prompt": "Use an upbeat reward reveal sound.",
+      "asset_request": "Use an upbeat reward reveal sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-031",
+      "intent": "quest_complete",
+      "specificity": "broad",
+      "prompt": "Add a sound when the player completes a quest.",
+      "asset_request": "Add a sound when the player completes a quest.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-032",
+      "intent": "quest_complete",
+      "specificity": "specific",
+      "prompt": "Find a soft quest completion notification sound.",
+      "asset_request": "Find a soft quest completion notification sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-033",
+      "intent": "quest_complete",
+      "specificity": "specific",
+      "prompt": "I need a warm RPG objective-complete cue.",
+      "asset_request": "I need a warm RPG objective-complete cue.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-034",
+      "intent": "quest_complete",
+      "specificity": "broad",
+      "prompt": "Use a rewarding fantasy mission completion sound.",
+      "asset_request": "Use a rewarding fantasy mission completion sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-035",
+      "intent": "quest_complete",
+      "specificity": "specific",
+      "prompt": "Play a short cue after turning in a quest.",
+      "asset_request": "Play a short cue after turning in a quest.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-036",
+      "intent": "quest_complete",
+      "specificity": "broad",
+      "prompt": "Add audio feedback for a completed objective.",
+      "asset_request": "Add audio feedback for a completed objective.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-037",
+      "intent": "sword_impact",
+      "specificity": "broad",
+      "prompt": "Find a fantasy sword impact sound.",
+      "asset_request": "Find a fantasy sword impact sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-038",
+      "intent": "sword_impact",
+      "specificity": "specific",
+      "prompt": "I need a sharp metallic melee hit.",
+      "asset_request": "I need a sharp metallic melee hit.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-039",
+      "intent": "sword_impact",
+      "specificity": "specific",
+      "prompt": "Add a dark fantasy sword clash.",
+      "asset_request": "Add a dark fantasy sword clash.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-040",
+      "intent": "sword_impact",
+      "specificity": "broad",
+      "prompt": "Play a forceful impact when the blade connects.",
+      "asset_request": "Play a forceful impact when the blade connects.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-041",
+      "intent": "sword_impact",
+      "specificity": "broad",
+      "prompt": "Find a compact weapon-hit sound for combat.",
+      "asset_request": "Find a compact weapon-hit sound for combat.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-042",
+      "intent": "sword_impact",
+      "specificity": "specific",
+      "prompt": "Use a metallic sword strike without ambience.",
+      "asset_request": "Use a metallic sword strike without ambience.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-043",
+      "intent": "spell_cast",
+      "specificity": "broad",
+      "prompt": "I need a magical spell cast sound.",
+      "asset_request": "I need a magical spell cast sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-044",
+      "intent": "spell_cast",
+      "specificity": "broad",
+      "prompt": "Find a shimmering fantasy casting effect.",
+      "asset_request": "Find a shimmering fantasy casting effect.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-045",
+      "intent": "spell_cast",
+      "specificity": "broad",
+      "prompt": "Add an energetic sound when a wizard uses magic.",
+      "asset_request": "Add an energetic sound when a wizard uses magic.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-046",
+      "intent": "spell_cast",
+      "specificity": "broad",
+      "prompt": "Play a mystical cue for a magic ability.",
+      "asset_request": "Play a mystical cue for a magic ability.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-047",
+      "intent": "spell_cast",
+      "specificity": "broad",
+      "prompt": "Use a bright rising spell SFX.",
+      "asset_request": "Use a bright rising spell SFX.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-048",
+      "intent": "spell_cast",
+      "specificity": "broad",
+      "prompt": "Find a compact magical power activation sound.",
+      "asset_request": "Find a compact magical power activation sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-049",
+      "intent": "footstep",
+      "specificity": "broad",
+      "prompt": "Add footsteps for player movement.",
+      "asset_request": "Add footsteps for player movement.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-050",
+      "intent": "footstep",
+      "specificity": "specific",
+      "prompt": "Find a dry footstep for a stone dungeon.",
+      "asset_request": "Find a dry footstep for a stone dungeon.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-051",
+      "intent": "footstep",
+      "specificity": "broad",
+      "prompt": "I need grounded walking sounds for an adventure game.",
+      "asset_request": "I need grounded walking sounds for an adventure game.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-052",
+      "intent": "footstep",
+      "specificity": "specific",
+      "prompt": "Play a short natural step on a hard path.",
+      "asset_request": "Play a short natural step on a hard path.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-053",
+      "intent": "footstep",
+      "specificity": "specific",
+      "prompt": "Use subtle footsteps during exploration.",
+      "asset_request": "Use subtle footsteps during exploration.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-054",
+      "intent": "footstep",
+      "specificity": "specific",
+      "prompt": "Find a compact movement sound without reverb.",
+      "asset_request": "Find a compact movement sound without reverb.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-055",
+      "intent": "ambient",
+      "specificity": "broad",
+      "prompt": "Add calm forest night ambience.",
+      "asset_request": "Add calm forest night ambience.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-056",
+      "intent": "ambient",
+      "specificity": "broad",
+      "prompt": "Find atmospheric environmental audio for a forest level.",
+      "asset_request": "Find atmospheric environmental audio for a forest level.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-057",
+      "intent": "ambient",
+      "specificity": "specific",
+      "prompt": "I need a quiet organic background for exploration.",
+      "asset_request": "I need a quiet organic background for exploration.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-058",
+      "intent": "ambient",
+      "specificity": "specific",
+      "prompt": "Use a loopable woodland ambience in my game.",
+      "asset_request": "Use a loopable woodland ambience in my game.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-059",
+      "intent": "ambient",
+      "specificity": "specific",
+      "prompt": "Add subtle nighttime environmental sound.",
+      "asset_request": "Add subtle nighttime environmental sound.",
+      "version": "1.0.0"
+    },
+    {
+      "id": "q-060",
+      "intent": "ambient",
+      "specificity": "broad",
+      "prompt": "Find a calm ambient bed that will not distract the player.",
+      "asset_request": "Find a calm ambient bed that will not distract the player.",
+      "version": "1.0.0"
+    }
+  ]
+}

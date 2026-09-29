@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "gameplay-quest-complete-03",
+  "slug": "quest-complete-03",
+  "name": "Quest Complete 03",
+  "type": "sound_effect",
+  "category": "gameplay",
+  "subcategory": "quest-complete",
+  "description": "A warm, rewarding, fantasy quest complete designed for RPG quest completion, objective complete, mission reward. Variation 03 has audibly distinct timing and tone.",
+  "use_cases": [
+    "RPG quest completion",
+    "objective complete",
+    "mission reward"
+  ],
+  "character": [
+    "warm",
+    "rewarding",
+    "fantasy"
+  ],
+  "mood": [
+    "warm",
+    "rewarding"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 1.4,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -4.6,
+    "rms_dbfs": -18.86,
+    "loudness_lufs_estimate": -19.56,
+    "zero_crossing_rate": 0.01693,
+    "spectral_centroid_hz": 13288,
+    "spectral_rolloff_hz": 24583,
+    "transient_density_per_second": 1488.57,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 14.26,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/gameplay/quest-complete/quest-complete-03.wav",
+    "ogg": "/media/gameplay/quest-complete/quest-complete-03.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/gameplay/quest-complete/quest-complete-03",
+  "tags": [
+    "gameplay",
+    "quest-complete",
+    "game audio",
+    "sound effect",
+    "warm",
+    "rewarding",
+    "fantasy",
+    "RPG quest completion",
+    "objective complete",
+    "mission reward"
+  ]
+}

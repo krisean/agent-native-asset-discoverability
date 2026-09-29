@@ -1,0 +1,9 @@
+node_modules
+.git
+baseline/raw
+trials/raw
+reports
+analysis
+scripts
+_tests
+api/search.js

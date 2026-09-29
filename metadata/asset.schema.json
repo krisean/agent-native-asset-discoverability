@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://example.invalid/schemas/asset.schema.json",
+  "title":"Sound effect asset","type":"object",
+  "required":["id","name","type","category","subcategory","description","use_cases","character","derived","files","license","provenance","canonical_path"],
+  "properties":{
+    "id":{"type":"string","pattern":"^[a-z0-9-]+$"},"name":{"type":"string"},"type":{"const":"sound_effect"},
+    "category":{"type":"string"},"subcategory":{"type":"string"},"description":{"type":"string"},
+    "use_cases":{"type":"array","minItems":1,"items":{"type":"string"}},"character":{"type":"array","minItems":1,"items":{"type":"string"}},
+    "derived":{"type":"object","required":["duration_seconds","sample_rate_hz","bit_depth","peak_dbfs","rms_dbfs","spectral_centroid_hz","zero_crossing_rate"]},
+    "files":{"type":"object","required":["wav","ogg"]},"license":{"type":"object","required":["spdx","commercial_use","attribution_required"]},
+    "provenance":{"type":"object","required":["generator","seed"]},"canonical_path":{"type":"string"}
+  }
+}

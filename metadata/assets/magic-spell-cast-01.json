@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "magic-spell-cast-01",
+  "slug": "spell-cast-01",
+  "name": "Magic Spell Cast 01",
+  "type": "sound_effect",
+  "category": "magic",
+  "subcategory": "spell-cast",
+  "description": "A shimmering, mystical, energetic magic spell cast designed for wizard spell, magic ability, fantasy casting. Variation 01 has audibly distinct timing and tone.",
+  "use_cases": [
+    "wizard spell",
+    "magic ability",
+    "fantasy casting"
+  ],
+  "character": [
+    "shimmering",
+    "mystical",
+    "energetic"
+  ],
+  "mood": [
+    "shimmering",
+    "mystical"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 0.92,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -10.54,
+    "rms_dbfs": -23.03,
+    "loudness_lufs_estimate": -23.73,
+    "zero_crossing_rate": 0.08099,
+    "spectral_centroid_hz": 12214,
+    "spectral_rolloff_hz": 22596,
+    "transient_density_per_second": 57.61,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 12.49,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/magic/spell-cast/spell-cast-01.wav",
+    "ogg": "/media/magic/spell-cast/spell-cast-01.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/magic/spell-cast/spell-cast-01",
+  "tags": [
+    "magic",
+    "spell-cast",
+    "game audio",
+    "sound effect",
+    "shimmering",
+    "mystical",
+    "energetic",
+    "wizard spell",
+    "magic ability",
+    "fantasy casting"
+  ]
+}

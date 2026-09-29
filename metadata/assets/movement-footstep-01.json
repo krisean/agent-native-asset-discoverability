@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "movement-footstep-01",
+  "slug": "footstep-01",
+  "name": "Adventure Footstep 01",
+  "type": "sound_effect",
+  "category": "movement",
+  "subcategory": "footstep",
+  "description": "A grounded, dry, natural adventure footstep designed for player movement, stone path, dungeon walking. Variation 01 has audibly distinct timing and tone.",
+  "use_cases": [
+    "player movement",
+    "stone path",
+    "dungeon walking"
+  ],
+  "character": [
+    "grounded",
+    "dry",
+    "natural"
+  ],
+  "mood": [
+    "grounded",
+    "dry"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "unpitched/percussive"
+  },
+  "derived": {
+    "duration_seconds": 0.31,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -11.63,
+    "rms_dbfs": -28.55,
+    "loudness_lufs_estimate": -29.25,
+    "zero_crossing_rate": 0.06152,
+    "spectral_centroid_hz": 7846,
+    "spectral_rolloff_hz": 14515,
+    "transient_density_per_second": 32.26,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 16.92,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/movement/footstep/footstep-01.wav",
+    "ogg": "/media/movement/footstep/footstep-01.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/movement/footstep/footstep-01",
+  "tags": [
+    "movement",
+    "footstep",
+    "game audio",
+    "sound effect",
+    "grounded",
+    "dry",
+    "natural",
+    "player movement",
+    "stone path",
+    "dungeon walking"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "environment-ambient-01",
+  "slug": "ambient-01",
+  "name": "Forest Night Ambience 01",
+  "type": "sound_effect",
+  "category": "environment",
+  "subcategory": "ambient",
+  "description": "A calm, atmospheric, organic forest night ambience designed for game environment, forest level, quiet exploration. Variation 01 has audibly distinct timing and tone.",
+  "use_cases": [
+    "game environment",
+    "forest level",
+    "quiet exploration"
+  ],
+  "character": [
+    "calm",
+    "atmospheric",
+    "organic"
+  ],
+  "mood": [
+    "calm",
+    "atmospheric"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": true,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 4,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -19.38,
+    "rms_dbfs": -32.68,
+    "loudness_lufs_estimate": -33.38,
+    "zero_crossing_rate": 0.20605,
+    "spectral_centroid_hz": 11668,
+    "spectral_rolloff_hz": 21585,
+    "transient_density_per_second": 0,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 13.29,
+    "loopability_estimate": "possible with crossfade",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/environment/ambient/ambient-01.wav",
+    "ogg": "/media/environment/ambient/ambient-01.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/environment/ambient/ambient-01",
+  "tags": [
+    "environment",
+    "ambient",
+    "game audio",
+    "sound effect",
+    "calm",
+    "atmospheric",
+    "organic",
+    "game environment",
+    "forest level",
+    "quiet exploration"
+  ]
+}

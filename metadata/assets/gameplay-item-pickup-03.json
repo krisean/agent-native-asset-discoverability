@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "gameplay-item-pickup-03",
+  "slug": "item-pickup-03",
+  "name": "Item Pickup 03",
+  "type": "sound_effect",
+  "category": "gameplay",
+  "subcategory": "item-pickup",
+  "description": "A satisfying, bright, compact item pickup designed for collectible pickup, inventory addition, coin collection. Variation 03 has audibly distinct timing and tone.",
+  "use_cases": [
+    "collectible pickup",
+    "inventory addition",
+    "coin collection"
+  ],
+  "character": [
+    "satisfying",
+    "bright",
+    "compact"
+  ],
+  "mood": [
+    "satisfying",
+    "bright"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 0.56,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -9.86,
+    "rms_dbfs": -20.48,
+    "loudness_lufs_estimate": -21.18,
+    "zero_crossing_rate": 0.04515,
+    "spectral_centroid_hz": 9252,
+    "spectral_rolloff_hz": 17116,
+    "transient_density_per_second": 498.21,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 10.62,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/gameplay/item-pickup/item-pickup-03.wav",
+    "ogg": "/media/gameplay/item-pickup/item-pickup-03.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/gameplay/item-pickup/item-pickup-03",
+  "tags": [
+    "gameplay",
+    "item-pickup",
+    "game audio",
+    "sound effect",
+    "satisfying",
+    "bright",
+    "compact",
+    "collectible pickup",
+    "inventory addition",
+    "coin collection"
+  ]
+}

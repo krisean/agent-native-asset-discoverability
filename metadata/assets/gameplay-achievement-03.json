@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "id": "gameplay-achievement-03",
+  "slug": "achievement-03",
+  "name": "Achievement Unlock 03",
+  "type": "sound_effect",
+  "category": "gameplay",
+  "subcategory": "achievement",
+  "description": "A positive, celebratory, polished achievement unlock designed for achievement earned, milestone reached, reward reveal. Variation 03 has audibly distinct timing and tone.",
+  "use_cases": [
+    "achievement earned",
+    "milestone reached",
+    "reward reveal"
+  ],
+  "character": [
+    "positive",
+    "celebratory",
+    "polished"
+  ],
+  "mood": [
+    "positive",
+    "celebratory"
+  ],
+  "context": "game development",
+  "intended_application": [
+    "video games",
+    "interactive UI"
+  ],
+  "editorial": {
+    "loopable": false,
+    "pitch_description": "tonal"
+  },
+  "derived": {
+    "duration_seconds": 1.17,
+    "sample_rate_hz": 44100,
+    "bit_depth": 16,
+    "channels": 1,
+    "channel_configuration": "mono",
+    "peak_dbfs": -15.2,
+    "rms_dbfs": -27.27,
+    "loudness_lufs_estimate": -27.97,
+    "zero_crossing_rate": 0.02766,
+    "spectral_centroid_hz": 14606,
+    "spectral_rolloff_hz": 27021,
+    "transient_density_per_second": 0,
+    "estimated_brightness": "bright",
+    "dynamic_range_db": 12.07,
+    "loopability_estimate": "not loopable",
+    "extraction": {
+      "pipeline": "scripts/generate-corpus.js",
+      "algorithm_version": "1.0.0",
+      "source": "decoded PCM WAV master"
+    }
+  },
+  "files": {
+    "wav": "/media/gameplay/achievement/achievement-03.wav",
+    "ogg": "/media/gameplay/achievement/achievement-03.ogg"
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "attribution_required": false
+  },
+  "provenance": {
+    "generator": "Deterministic procedural synthesis",
+    "seed": 19470523,
+    "generated_at": "2026-09-29T00:00:00Z",
+    "source_recording": false
+  },
+  "canonical_path": "/assets/gameplay/achievement/achievement-03",
+  "tags": [
+    "gameplay",
+    "achievement",
+    "game audio",
+    "sound effect",
+    "positive",
+    "celebratory",
+    "polished",
+    "achievement earned",
+    "milestone reached",
+    "reward reveal"
+  ]
+}
