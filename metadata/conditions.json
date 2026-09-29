@@ -168,6 +168,15 @@
         {"host": "assets.playnow.social", "url_count": 39, "http_status": 202}
       ],
       "interpretation": "Accepted for processing; HTTP 202 does not prove crawling, indexing, or ranking."
+    },
+    {
+      "timestamp": "2026-09-29T21:16:10Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "unscheduled_post_intervention_diagnostic",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "queries": 6,
+      "our_library_appearances": 0,
+      "interpretation": "No visibility change approximately seven minutes after IndexNow acceptance; retained as a diagnostic and excluded from scheduled checkpoint inference."
     }
   ]
 }
