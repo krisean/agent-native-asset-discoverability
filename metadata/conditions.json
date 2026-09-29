@@ -131,6 +131,43 @@
       "status": "prospective",
       "new_assets_published": 0,
       "rationale": "Measure whether established domain crawl history reduces latency for later legitimate assets without changing a frozen A/B/E condition."
+    },
+    {
+      "timestamp": "2026-09-29T21:08:07Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "webmaster_registration_reported",
+      "source": "site owner",
+      "registrations": ["Google Search Console", "Bing Webmaster Tools"],
+      "submitted_sitemaps": ["https://www.playnow.social/sitemap.xml", "https://assets.playnow.social/sitemap.xml"],
+      "submission_timestamp_precision": "reported before event timestamp; exact provider timestamps not captured"
+    },
+    {
+      "timestamp": "2026-09-29T21:08:07Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "indexnow_instrumentation_staged",
+      "scope": "ownership key route and URL notification only",
+      "public_asset_page_content_changed": false,
+      "rationale": "Legitimate search discovery notification; analyze as a discovery intervention after the initial baseline."
+    },
+    {
+      "timestamp": "2026-09-29T21:09:33Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "external_discovery_link_verified",
+      "source_url": "https://www.playnow.social/",
+      "target_url": "https://assets.playnow.social/",
+      "source_type": "owner-operated universal projects directory",
+      "rationale": "Legitimate public project navigation; not a fabricated backlink."
+    },
+    {
+      "timestamp": "2026-09-29T21:09:33Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "indexnow_submitted",
+      "endpoint": "https://api.indexnow.org/indexnow",
+      "hosts": [
+        {"host": "www.playnow.social", "url_count": 1, "http_status": 202},
+        {"host": "assets.playnow.social", "url_count": 39, "http_status": 202}
+      ],
+      "interpretation": "Accepted for processing; HTTP 202 does not prove crawling, indexing, or ranking."
     }
   ]
 }

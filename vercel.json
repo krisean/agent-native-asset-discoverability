@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/index.js": {
-      "includeFiles": "{assets/**,metadata/corpus.json,website/styles.css,api/openapi.json}"
+      "includeFiles": "{assets/**,metadata/corpus.json,website/styles.css,website/915d5c319cee515764d4b0f11f90ca6a.txt,api/openapi.json}"
     }
   },
   "rewrites": [
