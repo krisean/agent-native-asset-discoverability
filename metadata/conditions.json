@@ -73,6 +73,25 @@
       "queries": 10,
       "scope": "One preregistered representative query per category; not the full 60-query Google/Bing baseline.",
       "our_library_appearances": 0
+    },
+    {
+      "timestamp": "2026-09-29T19:41:33Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "indexing_enabled",
+      "deployment_url": "https://assets.playnow.social",
+      "vercel_deployment_id": "dpl_HeVhqxJee5YejYB3N5DrmN8CqY2d",
+      "indexing_enabled": true,
+      "methodology_commit": "6c1dab7",
+      "verification": {
+        "homepage_status": 200,
+        "robots_status": 200,
+        "robots_allow_all": true,
+        "sitemap_status": 200,
+        "sitemap_url_count": 39,
+        "asset_page_status": 200,
+        "audio_status": 200,
+        "api_status": 404
+      }
     }
   ]
 }
