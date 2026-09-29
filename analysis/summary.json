@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "note": "No empirical result is implied when trial count is zero.",
+  "schema_version": "1.1.0",
+  "note": "No empirical result is implied when trial or lifecycle counts are zero.",
   "overall": {
     "trials": 0,
     "included_trials": 0,
@@ -71,5 +71,55 @@
   "strata": {
     "condition_id": {},
     "query_id": {}
+  },
+  "asset_lifecycle": {
+    "event_count": 0,
+    "asset_count": 0,
+    "observation_end": null,
+    "assets": [],
+    "aggregates": {
+      "sitemap_included_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "crawler_requested_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "indexed_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "exact_title_visible_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "semantic_query_visible_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "agent_retrieved_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      },
+      "agent_selected_hours": {
+        "observed": 0,
+        "median": null,
+        "minimum": null,
+        "maximum": null
+      }
+    }
   }
 }

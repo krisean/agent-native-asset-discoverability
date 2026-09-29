@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Asset lifecycle event dataset",
+  "type":"object",
+  "required":["schema_version","events"],
+  "properties":{
+    "schema_version":{"const":"1.0.0"},
+    "events":{"type":"array","items":{"type":"object","required":["event_id","asset_id","cohort","event_type","timestamp","evidence"],"properties":{
+      "event_id":{"type":"string"},"asset_id":{"type":"string"},"cohort":{"enum":["launch","new_asset"]},
+      "event_type":{"enum":["generated","published","sitemap_included","crawler_requested","indexed","exact_title_visible","semantic_query_visible","agent_retrieved","agent_selected"]},
+      "timestamp":{"type":"string","format":"date-time"},"provider":{"type":["string","null"]},"agent":{"type":["string","null"]},
+      "query_id":{"type":["string","null"]},"evidence":{"type":"object"},"notes":{"type":["string","null"]}
+    }}},
+    "observation_end":{"type":["string","null"],"format":"date-time"}
+  }
+}

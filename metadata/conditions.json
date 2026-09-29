@@ -122,6 +122,15 @@
       "superseded_run_count": 120,
       "replacement_run_count": 40,
       "outcomes_collected_under_superseded_manifest": 0
+    },
+    {
+      "timestamp": "2026-09-29T20:02:50Z",
+      "event": "protocol_amendment_registered",
+      "amendment": "reports/protocol-amendment-002.md",
+      "study": "post-screen new-asset indexing latency",
+      "status": "prospective",
+      "new_assets_published": 0,
+      "rationale": "Measure whether established domain crawl history reduces latency for later legitimate assets without changing a frozen A/B/E condition."
     }
   ]
 }

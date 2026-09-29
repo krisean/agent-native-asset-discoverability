@@ -34,8 +34,9 @@ Registered conditions: A basic listing; B rich editorial metadata; C B plus asse
 - Verification: agent played, decoded, analyzed, or otherwise inspected audio bytes
 - Incorrect selection: final asset fails blinded human/content check for prompt intent
 - Source attribution and license comprehension
+- Secondary new-asset sitemap, crawl, indexing, exact-title, semantic-query, agent-retrieval, and selection latency
 
-Primary estimands are discovery/total trials, retrieval/total trials, selection/discovered, integration/total trials, and verification/retrieved. Report Wilson 95% confidence intervals and raw denominators.
+Primary estimands are discovery/total trials, retrieval/total trials, selection/discovered, integration/total trials, and verification/retrieved. Report Wilson 95% confidence intervals and raw denominators. Protocol Amendment 002 defines the separate post-screen asset-lifecycle study; its latency results must not be attributed to metadata conditions.
 
 ## Controls
 

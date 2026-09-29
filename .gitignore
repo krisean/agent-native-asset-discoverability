@@ -3,5 +3,7 @@ node_modules/
 trials/raw/
 baseline/raw/
 *.log
+__pycache__/
+*.pyc
 
 .vercel

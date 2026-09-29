@@ -40,6 +40,10 @@ Summarize search terms, domains, selection rationales, source attribution, licen
 
 Report byte-level inspection and private mismatch rejection rates. Do not publish deceptive mismatch assets.
 
+## New-Asset Indexing Latency
+
+Under Protocol Amendment 002, report per-asset and aggregate sitemap, crawler, indexing, exact-title, semantic-query, retrieval, and selection latency for the post-screen holdout cohort. Report missing milestones as right-censored and treat comparisons with the launch cohort as observational rather than metadata effects.
+
 ## Limitations
 
 Search personalization, model and agent differences, indexing delays, small samples, changing ranking algorithms, geography, API/tool availability, incomplete logs, and inability to guarantee identical retrieval environments.
