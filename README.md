@@ -4,7 +4,14 @@ A reproducible research project for testing whether a small, legitimate sound-ef
 
 ## Status
 
-This repository supplies the corpus generator, crawlable website, JSON API, benchmark queries, trial schemas, analysis pipeline, and report templates. Publishing, search-engine indexing, and independent-agent trials require an external public deployment and fresh agent environments; they are intentionally not fabricated locally.
+Condition A is publicly deployed at **https://assets.playnow.social** with 30 CC0 effects and indexing enabled. The source, corpus generator, crawlable website, later-condition API, frozen benchmark, raw observation formats, analysis pipeline, and report templates are published here for reproducibility.
+
+The initial and unscheduled diagnostic observations are recorded, but independent-agent trials have not yet been run. They require fresh uninformed Devin, Claude Code, or Cursor environments and will not be fabricated from this repository or the informed research session.
+
+- Live library: https://assets.playnow.social
+- Public projects directory: https://www.playnow.social
+- Condition history: [`metadata/conditions.json`](metadata/conditions.json)
+- Current protocol: [`reports/protocol-amendment-001.md`](reports/protocol-amendment-001.md)
 
 ## Quick start
 
