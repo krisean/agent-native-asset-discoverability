@@ -50,7 +50,7 @@ Search personalization, model and agent differences, indexing delays, small samp
 
 ## Raw Data
 
-Link anonymized baseline observations, trials, artifacts/hashes, analysis outputs, benchmark version, and condition registry.
+Link anonymized baseline observations, trials, artifacts/hashes, analysis outputs, benchmark version, condition registry, and the evidence-qualified infrastructure snapshot in `metadata/infrastructure-provenance.json`.
 
 ## Conclusion
 

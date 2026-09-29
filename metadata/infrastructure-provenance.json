@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "captured_at": "2026-09-29T21:23:55Z",
+  "evidence_policy": {
+    "verified": "Observed directly through DNS, HTTPS, Vercel CLI, Git, GitHub CLI, or a public response.",
+    "user_reported": "Reported by the site owner but not independently exported from the provider account.",
+    "unknown": "Not inspected or not exposed by the available interface."
+  },
+  "dns": {
+    "authoritative_provider": {
+      "value": "Cloudflare",
+      "evidence": "verified",
+      "nameservers": ["amos.ns.cloudflare.com", "bella.ns.cloudflare.com"]
+    },
+    "hosts": [
+      {
+        "host": "playnow.social",
+        "resolution": ["76.76.21.21"],
+        "routing": "direct Vercel IPv4",
+        "evidence": "verified"
+      },
+      {
+        "host": "www.playnow.social",
+        "resolution": ["172.67.128.106", "104.21.1.248", "2606:4700:3033::6815:1f8", "2606:4700:3033::ac43:806a"],
+        "routing": "Cloudflare-proxied",
+        "evidence": "verified from public DNS; dashboard proxy setting not inspected"
+      },
+      {
+        "host": "assets.playnow.social",
+        "resolution": ["76.76.21.21"],
+        "routing": "direct Vercel IPv4",
+        "evidence": "verified"
+      }
+    ],
+    "prior_root_resolution": {
+      "value": "173.237.38.116",
+      "observed_before_correction": true,
+      "exact_change_timestamp": null,
+      "evidence": "verified before change; change performed by site owner"
+    }
+  },
+  "deployments": {
+    "asset_experiment": {
+      "provider": "Vercel",
+      "project": "experiment",
+      "deployment_id": "dpl_9cYigH6fm94wzyN9TQevCPCJ4M6a",
+      "deployment_url": "https://experiment-qvnkmhq0w-kris-projects-a9d6cb73.vercel.app",
+      "alias": "https://assets.playnow.social",
+      "status": "ready",
+      "target": "production",
+      "created_at": "2026-09-29T21:08:38Z",
+      "closest_matching_source_commit": "543cb73",
+      "source_commit_note": "Deployment was created immediately before the matching served-code commit; later experiment commits modify records and documentation only.",
+      "evidence": "verified"
+    },
+    "projects_directory": {
+      "provider": "Vercel",
+      "project": "playnow-projects",
+      "deployment_id": "dpl_J6gWoQTAwqbNzwbUyJ3C8PmvczYc",
+      "deployment_url": "https://playnow-projects-nn3h8ou80-kris-projects-a9d6cb73.vercel.app",
+      "aliases": ["https://playnow.social", "https://www.playnow.social"],
+      "status": "ready",
+      "target": "production",
+      "created_at": "2026-09-29T21:08:37Z",
+      "source_commit": "cdfe3313dbb845b5961a89c4a47eb5f6361a2526",
+      "source_repository_remote": null,
+      "evidence": "verified"
+    }
+  },
+  "tls": {
+    "playnow.social": {"certificate_id": "cert_Ypw8YdvBWoe7lS77ayfrMHom", "auto_renew": true, "evidence": "verified"},
+    "www.playnow.social": {"certificate_id": "cert_QBFH1UrA78ak0yF2l7XncE7p", "auto_renew": true, "evidence": "verified"},
+    "assets.playnow.social": {"certificate_id": "cert_GbhWfDLNsXYJupoGqKCIJjYr", "auto_renew": true, "evidence": "verified"}
+  },
+  "public_endpoints": [
+    {"url": "https://playnow.social/", "status": 200, "content_type": "text/html; charset=utf-8", "evidence": "verified"},
+    {"url": "https://www.playnow.social/", "status": 200, "content_type": "text/html; charset=utf-8", "bing_verification_tag_present": true, "evidence": "verified"},
+    {"url": "https://www.playnow.social/sitemap.xml", "status": 200, "content_type": "application/xml", "url_count": 1, "evidence": "verified"},
+    {"url": "https://assets.playnow.social/sitemap.xml", "status": 200, "content_type": "application/xml; charset=utf-8", "url_count": 39, "evidence": "verified"},
+    {"url": "https://www.playnow.social/8803231d295371ac485fa2587bbc4ad0.txt", "status": 200, "purpose": "IndexNow ownership", "content_verified": true, "evidence": "verified"},
+    {"url": "https://assets.playnow.social/915d5c319cee515764d4b0f11f90ca6a.txt", "status": 200, "purpose": "IndexNow ownership", "content_verified": true, "evidence": "verified"}
+  ],
+  "search_discovery": {
+    "google_search_console": {
+      "registration": "completed",
+      "sitemaps_reported_submitted": ["https://www.playnow.social/sitemap.xml", "https://assets.playnow.social/sitemap.xml"],
+      "exact_verification_timestamp": null,
+      "exact_submission_timestamps": null,
+      "evidence": "user_reported"
+    },
+    "bing_webmaster_tools": {
+      "registration": "completed",
+      "verification_method": "public msvalidate.01 meta tag on www.playnow.social",
+      "sitemaps_reported_submitted": ["https://www.playnow.social/sitemap.xml", "https://assets.playnow.social/sitemap.xml"],
+      "exact_verification_timestamp": null,
+      "exact_submission_timestamps": null,
+      "evidence": "registration/submission user_reported; verification tag independently verified"
+    },
+    "indexnow": {
+      "endpoint": "https://api.indexnow.org/indexnow",
+      "submitted_at": "2026-09-29T21:09:33Z",
+      "submissions": [
+        {"host": "www.playnow.social", "url_count": 1, "status": 202},
+        {"host": "assets.playnow.social", "url_count": 39, "status": 202}
+      ],
+      "evidence": "verified",
+      "interpretation": "Accepted for processing only; not evidence of crawling, indexing, ranking, or retrieval."
+    }
+  },
+  "public_repository": {
+    "url": "https://github.com/krisean/agent-native-asset-discoverability",
+    "visibility": "public",
+    "created_at": "2026-09-29T21:20:06Z",
+    "default_branch": "master",
+    "homepage": "https://assets.playnow.social",
+    "local_head_at_capture": "b880044f74c21c72465ac3816a429fb377db4576",
+    "topics": ["information-retrieval", "llm-agents", "reproducible-research", "sound-effects", "web-discoverability"],
+    "readme_links_to_live_library": true,
+    "evidence": "verified"
+  },
+  "unknown_or_unverified": [
+    "Cloudflare dashboard AI-crawler blocking setting",
+    "Cloudflare security rules and bot challenge behavior",
+    "Exact Google Search Console verification and sitemap submission timestamps",
+    "Exact Bing Webmaster Tools verification and sitemap submission timestamps",
+    "Whether any crawler has fetched or indexed a submitted URL",
+    "Upstream provider used by Devin web_search"
+  ]
+}

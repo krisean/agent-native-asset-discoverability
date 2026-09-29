@@ -187,6 +187,14 @@
       "homepage_url": "https://assets.playnow.social",
       "linked_from_readme": true,
       "rationale": "Publish reproducible source and create a legitimate developer-ecosystem discovery path; analyze as a post-baseline discovery intervention."
+    },
+    {
+      "timestamp": "2026-09-29T21:23:55Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "infrastructure_provenance_snapshot",
+      "dataset": "metadata/infrastructure-provenance.json",
+      "evidence_classes": ["verified", "user_reported", "unknown"],
+      "rationale": "Close known infrastructure audit gaps before the scheduled 24-hour checkpoint without inventing unavailable provider timestamps or settings."
     }
   ]
 }
