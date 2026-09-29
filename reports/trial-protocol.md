@@ -1,7 +1,7 @@
 # Trial execution protocol
 
 1. Select a registered condition and freeze its public deployment.
-2. Randomize benchmark query order using a recorded seed; preassign model/condition blocks.
+2. For the accelerated screen, select two frozen prompts per category (one specific and one broad where available), use two repetitions, and randomize the resulting 40 assignments with a recorded seed. Preserve superseded manifests.
 3. Start a fresh agent session/profile with normal tools and no mention of the domain, API, asset names, or experiment.
 4. Submit the benchmark `prompt` verbatim. Do not help the agent search.
 5. Preserve raw agent/tool logs and final project artifacts. Hash raw logs with SHA-256.

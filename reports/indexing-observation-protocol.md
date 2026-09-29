@@ -15,7 +15,7 @@ Record the actual agent, model, tool name, and disclosed provider. Use `provider
 
 ## Cadence and interpretation
 
-Capture observations in fixed windows measured from the `indexing_enabled` event: initial, 24 hours, 72 hours, 7 days, and 14 days. Record a missed window rather than backdating it. Search visibility immediately after release is expected to be absent and must not trigger an intervention.
+Capture observations in fixed windows measured from the `indexing_enabled` event: initial, 24 hours, 72 hours, and 7 days. The condition ends at seven days whether discovery is positive or zero. Record a missed window rather than backdating it. Search visibility immediately after release is expected to be absent and must not trigger an intervention.
 
 ## Storage
 
@@ -23,4 +23,4 @@ Append immutable records to `baseline/indexing-observations.jsonl`. Every record
 
 ## Intervention gate
 
-Do not deploy Condition B until the registered Condition A observation window ends and its independent-agent trials are captured. Any emergency production correction must be recorded as a separate event and analyzed as a possible confound.
+Do not deploy the next screening condition until the current seven-day window ends and its checkpoint agent trials are captured. The primary sequence is A → B → E under Protocol Amendment 001. Any emergency production correction must be recorded as a separate event and analyzed as a possible confound.

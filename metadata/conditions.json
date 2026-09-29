@@ -103,6 +103,25 @@
       "provider": "unspecified",
       "our_library_appearances": 0,
       "interpretation": "Expected initial absence 339 seconds after indexing release; no intervention triggered."
+    },
+    {
+      "timestamp": "2026-09-29T19:56:38Z",
+      "event": "protocol_amendment_registered",
+      "amendment": "reports/protocol-amendment-001.md",
+      "primary_conditions": ["A", "B", "E"],
+      "checkpoints": ["initial", "24h", "72h", "7d"],
+      "maximum_days_per_condition": 7,
+      "rationale": "Accelerated bundled-feature screen recorded before follow-up observations or agent outcomes."
+    },
+    {
+      "timestamp": "2026-09-29T19:56:38Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "trial_manifest_superseded",
+      "superseded_manifest": "trials/manifest_A-public-1.0.0_devin_condition-a-20260929.json",
+      "replacement_manifest": "trials/manifest_A-public-1.0.0_devin_screening-a-20260929.json",
+      "superseded_run_count": 120,
+      "replacement_run_count": 40,
+      "outcomes_collected_under_superseded_manifest": 0
     }
   ]
 }

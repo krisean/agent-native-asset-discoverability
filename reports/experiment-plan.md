@@ -22,6 +22,8 @@ One independent agent run against one frozen benchmark prompt under one register
 
 Registered conditions: A basic listing; B rich editorial metadata; C B plus asset pages/structured data; D C plus content-derived measurements; E D plus documented API. Conditions must be deployed or snapshotted separately; never silently mutate one.
 
+**Prospective amendment:** Protocol Amendment 001, recorded after the initial A observation but before follow-up outcomes, changes the primary screen to A → B → E with initial/24-hour/72-hour/7-day checkpoints. C and D are deferred to a follow-up attribution study. See `reports/protocol-amendment-001.md`.
+
 ## Dependent variables
 
 - Search appearance and rank (when observable)

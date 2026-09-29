@@ -30,7 +30,7 @@ Compare the experiment library, itch.io, and other observed sources separately f
 
 ## Metadata Ablation
 
-Compare registered conditions A–E. Distinguish baseline, intervention, and measured change. Do not represent nonconcurrent observational comparisons as randomized causal effects.
+The primary accelerated screen compares bundled Conditions A, B, and E under Protocol Amendment 001. Conditions C and D are deferred to a follow-up attribution study. Distinguish baseline, intervention, and measured change; do not attribute an A → B or B → E difference to one bundled feature or represent nonconcurrent observational comparisons as randomized causal effects.
 
 ## Agent Behavior
 
