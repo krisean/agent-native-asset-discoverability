@@ -92,6 +92,17 @@
         "audio_status": 200,
         "api_status": 404
       }
+    },
+    {
+      "timestamp": "2026-09-29T19:47:12Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "initial_indexing_observation",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "agent": "Devin",
+      "tool": "web_search",
+      "provider": "unspecified",
+      "our_library_appearances": 0,
+      "interpretation": "Expected initial absence 339 seconds after indexing release; no intervention triggered."
     }
   ]
 }
