@@ -177,6 +177,16 @@
       "queries": 6,
       "our_library_appearances": 0,
       "interpretation": "No visibility change approximately seven minutes after IndexNow acceptance; retained as a diagnostic and excluded from scheduled checkpoint inference."
+    },
+    {
+      "timestamp": "2026-09-29T21:20:42Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "public_repository_published",
+      "repository_url": "https://github.com/krisean/agent-native-asset-discoverability",
+      "visibility": "public",
+      "homepage_url": "https://assets.playnow.social",
+      "linked_from_readme": true,
+      "rationale": "Publish reproducible source and create a legitimate developer-ecosystem discovery path; analyze as a post-baseline discovery intervention."
     }
   ]
 }
