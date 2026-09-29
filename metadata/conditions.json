@@ -56,6 +56,13 @@
         "sitemap_status": 404,
         "robots_disallow_all": true
       }
+    },
+    {
+      "timestamp": "2026-09-29T19:34:06Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "source_frozen",
+      "git_commit": "1f66be5",
+      "rationale": "Immutable source revision corresponding to the verified pre-indexing Condition A deployment."
     }
   ]
 }
