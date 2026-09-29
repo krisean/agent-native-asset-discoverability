@@ -63,6 +63,16 @@
       "event": "source_frozen",
       "git_commit": "1f66be5",
       "rationale": "Immutable source revision corresponding to the verified pre-indexing Condition A deployment."
+    },
+    {
+      "timestamp": "2026-09-29T19:35:24Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "pilot_search_baseline_captured",
+      "dataset": "baseline/2026-09-29_web-search_A-public-1.0.0.jsonl",
+      "engine": "Devin web_search",
+      "queries": 10,
+      "scope": "One preregistered representative query per category; not the full 60-query Google/Bing baseline.",
+      "our_library_appearances": 0
     }
   ]
 }
