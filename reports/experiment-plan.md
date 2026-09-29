@@ -51,9 +51,15 @@ Freeze prompt text and query ID, model/version, agent configuration, tool permis
 
 Capture baseline competitor/search results before submitting indexing or changing pages. Freeze them under `baseline/`. Publish condition A first where feasible. Every subsequent intervention receives a new condition ID and deployment timestamp. Analyze baseline → intervention → measured change, including null/negative outcomes.
 
+## Agent-native retrieval environments
+
+The primary outcome is retrieval by ordinary coding agents using their normal built-in search behavior, not ranking in a researcher-selected consumer search engine. Target environments are Devin, Claude Code, and Cursor. Each observation must name the actual agent, model, tool, and disclosed search provider. If an agent abstracts or does not disclose its upstream provider, record `provider: unspecified`; never infer Google, Bing, Brave, or another engine.
+
+The pre-indexing pilot uses Devin's `web_search` tool. Its upstream provider, geography, personalization, and index are not disclosed, so the dataset is labeled `Devin web_search` and must not be presented as Google or Bing results. Claude Code and Cursor are planned comparison environments and remain `not tested` until independent trials are actually run in those products. Direct Google/Bing measurements are secondary explanatory datasets, not substitutes for agent trials.
+
 ## Independent-agent protocol
 
-Use a separate profile or machine, fresh session, no prior URLs/history, and no custom instructions mentioning this library. Give exactly one benchmark prompt. Preserve raw tool logs, search queries, visited domains, candidates, downloads, and final project artifacts where permitted. A human coder records only facts supported by logs.
+Use a separate profile or machine, fresh session, no prior URLs/history, and no custom instructions mentioning this library. Give exactly one benchmark prompt. Allow the agent to choose its normal search behavior; do not force a named consumer search engine unless that is a separately registered condition. Preserve raw tool logs, exact search tool names and disclosed providers, search queries, visited domains, candidates, downloads, and final project artifacts where permitted. A human coder records only facts supported by logs.
 
 ## Verification test
 

@@ -8,7 +8,9 @@ Pending measured evidence.
 
 ## Experimental Setup
 
-Reference the preregistered plan, condition registry, deployment snapshots, date windows, environments, models, and exact controls.
+The primary retrieval environments are coding agents using their normal built-in search behavior. Target comparisons are Devin, Claude Code, and Cursor. Every result must identify the environment actually used; an agent brand is not treated as evidence of a particular upstream search engine.
+
+Current measured baseline: ten pre-indexing queries, one per category, collected through Devin's `web_search` tool on 2026-09-29. The upstream provider, geography, and personalization are unspecified. These observations are not Google or Bing measurements. Claude Code and Cursor are not yet tested. Reference the condition registry for deployment snapshots and exact controls.
 
 ## Dataset
 
