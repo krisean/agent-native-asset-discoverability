@@ -233,6 +233,18 @@
       "position": 1,
       "query": "playnow sound effects",
       "interpretation": "First confirmed Google index appearance: the library ranked first for its exact name ~9.6 hours after indexing release. Owner-performed incognito search counts as index-presence evidence only, not agent discoverability. The Devin web_search provider showed zero appearances in the concurrent diagnostic, documenting provider index divergence."
+    },
+    {
+      "timestamp": "2026-09-30T05:23:00Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "user_performed_google_index_observation",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "agent": "site-owner",
+      "tool": "google-search-chrome-incognito",
+      "provider": "Google",
+      "queries": 4,
+      "our_library_appearances": 2,
+      "interpretation": "Tokenization diagnostic: 'playnow sound effects' ranks assets.playnow.social first; 'playnow social' surfaces only the older events.playnow.social trivia subdomain (neither www nor assets appear); spaced 'play now social' succeeds; 'play now assets' fails. The assets host is indexed under its own name while domain-brand queries still resolve to the older indexed subdomain. Owner-performed diagnostic, excluded from scheduled checkpoint inference."
     }
   ]
 }
