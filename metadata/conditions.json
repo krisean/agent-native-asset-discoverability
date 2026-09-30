@@ -259,6 +259,22 @@
       "position": "page_3_approx_21-30",
       "query": "playnow sound effects",
       "interpretation": "Cross-browser correction: the same exact-name query that ranked position 1 in Chrome incognito ranks ~page 3 in Firefox, indicating the earlier rank was inflated by owner personalization. Index presence is confirmed but the neutral-observer rank for the library's own name is roughly positions 21-30 — realistic for a ~10-hour-old domain."
+    },
+    {
+      "timestamp": "2026-09-30T21:03:18Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "scheduled_indexing_checkpoint",
+      "checkpoint": "24h",
+      "scheduled": true,
+      "dataset": "baseline/indexing-observations.jsonl",
+      "observation_id": "indexing-20260930T210318Z",
+      "agent": "Devin",
+      "tool": "web_search",
+      "provider": "unspecified",
+      "queries": 13,
+      "our_library_appearances": 0,
+      "elapsed_since_release_seconds": 91305,
+      "interpretation": "Registered 24-hour checkpoint (~25.4h after indexing release): zero library appearances across all 13 registered queries through the Devin web_search provider, including site: query, exact asset/library titles, and the ten frozen pilot prompts. Unlike the prior unscheduled diagnostics and the owner-performed Google searches, this is the protocol-scheduled observation for the 24h window and is eligible for scheduled-checkpoint inference. Absence here reflects only the unspecified web_search provider and does not negate the confirmed Google index presence."
     }
   ]
 }
