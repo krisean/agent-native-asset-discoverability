@@ -195,6 +195,30 @@
       "dataset": "metadata/infrastructure-provenance.json",
       "evidence_classes": ["verified", "user_reported", "unknown"],
       "rationale": "Close known infrastructure audit gaps before the scheduled 24-hour checkpoint without inventing unavailable provider timestamps or settings."
+    },
+    {
+      "timestamp": "2026-09-30T05:16:43Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "unscheduled_post_intervention_diagnostic",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "agent": "Devin",
+      "tool": "web_search",
+      "provider": "unspecified",
+      "queries": 6,
+      "our_library_appearances": 0,
+      "interpretation": "No visibility change approximately 9.6 hours after indexing release and 8.1 hours after IndexNow acceptance; retained as a diagnostic and excluded from scheduled checkpoint inference."
+    },
+    {
+      "timestamp": "2026-09-30T05:16:20Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "unscheduled_post_intervention_diagnostic",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "agent": "Devin",
+      "tool": "web_search",
+      "provider": "unspecified",
+      "queries": 5,
+      "our_library_appearances": 0,
+      "interpretation": "Concurrent diagnostic recorded by a parallel session seconds before the indexing-20260930T051643Z observation; no visibility change and likewise excluded from scheduled checkpoint inference."
     }
   ]
 }
