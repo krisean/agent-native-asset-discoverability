@@ -245,6 +245,20 @@
       "queries": 4,
       "our_library_appearances": 2,
       "interpretation": "Tokenization diagnostic: 'playnow sound effects' ranks assets.playnow.social first; 'playnow social' surfaces only the older events.playnow.social trivia subdomain (neither www nor assets appear); spaced 'play now social' succeeds; 'play now assets' fails. The assets host is indexed under its own name while domain-brand queries still resolve to the older indexed subdomain. Owner-performed diagnostic, excluded from scheduled checkpoint inference."
+    },
+    {
+      "timestamp": "2026-09-30T05:26:00Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "user_performed_google_index_observation",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "agent": "site-owner",
+      "tool": "google-search-firefox",
+      "provider": "Google",
+      "queries": 1,
+      "our_library_appearances": 1,
+      "position": "page_3_approx_21-30",
+      "query": "playnow sound effects",
+      "interpretation": "Cross-browser correction: the same exact-name query that ranked position 1 in Chrome incognito ranks ~page 3 in Firefox, indicating the earlier rank was inflated by owner personalization. Index presence is confirmed but the neutral-observer rank for the library's own name is roughly positions 21-30 — realistic for a ~10-hour-old domain."
     }
   ]
 }
