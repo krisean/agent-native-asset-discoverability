@@ -415,6 +415,15 @@
       "provider": "unspecified",
       "our_library_appearances": 0,
       "interpretation": "Expected initial absence 77 seconds after the condition B indexing release; no intervention triggered. Checkpoint deadlines: 24h at 2026-10-07T20:43:10Z, 72h at 2026-10-09T20:43:10Z, 7d at 2026-10-13T20:43:10Z."
+    },
+    {
+      "timestamp": "2026-10-06T20:54:35Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "verification_metatag_redeploy",
+      "vercel_deployment_id": "dpl_Bt86YZRAajjPJ49uBZNB4oVETrE7",
+      "git_commit": "1bfcfe3",
+      "change": "Added msvalidate.01 meta tag to homepage <head> for Bing Webmaster Tools ownership verification; also added to the E server layout so verification survives the later condition deploy. No experimental feature, asset, metadata, or indexing state changed.",
+      "interpretation": "Infrastructure verification correction ~11 minutes after indexing release; recorded as a separate post-freeze production change and a possible confound for the earliest-window observations."
     }
   ]
 }
