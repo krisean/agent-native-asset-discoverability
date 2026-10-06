@@ -403,6 +403,18 @@
       "seed": "20261006-b",
       "run_count": 40,
       "interpretation": "40 randomized runs (10 categories × 2 prompts × 2 repetitions) per Protocol Amendment 001. Trials must execute in fresh independent sessions; none collected yet."
+    },
+    {
+      "timestamp": "2026-10-06T20:44:27Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "initial_indexing_observation",
+      "dataset": "baseline/indexing-observations.jsonl",
+      "observation_id": "indexing-20261006T204427Z",
+      "agent": "Devin",
+      "tool": "web_search",
+      "provider": "unspecified",
+      "our_library_appearances": 0,
+      "interpretation": "Expected initial absence 77 seconds after the condition B indexing release; no intervention triggered. Checkpoint deadlines: 24h at 2026-10-07T20:43:10Z, 72h at 2026-10-09T20:43:10Z, 7d at 2026-10-13T20:43:10Z."
     }
   ]
 }
