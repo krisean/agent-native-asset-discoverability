@@ -275,6 +275,30 @@
       "our_library_appearances": 0,
       "elapsed_since_release_seconds": 91305,
       "interpretation": "Registered 24-hour checkpoint (~25.4h after indexing release): zero library appearances across all 13 registered queries through the Devin web_search provider, including site: query, exact asset/library titles, and the ten frozen pilot prompts. Unlike the prior unscheduled diagnostics and the owner-performed Google searches, this is the protocol-scheduled observation for the 24h window and is eligible for scheduled-checkpoint inference. Absence here reflects only the unspecified web_search provider and does not negate the confirmed Google index presence."
+    },
+    {
+      "timestamp": "2026-10-06T20:18:54Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "checkpoint_window_missed",
+      "checkpoint": "72h",
+      "due": "2026-10-02T19:41:33Z",
+      "interpretation": "The registered 72-hour indexing observation was not captured within its window. Recorded as missed per the observation protocol rather than backdated; no observation data exists for the 72h window."
+    },
+    {
+      "timestamp": "2026-10-06T20:18:54Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "scheduled_indexing_checkpoint",
+      "checkpoint": "7d",
+      "scheduled": true,
+      "dataset": "baseline/indexing-observations.jsonl",
+      "observation_id": "indexing-20261006T201854Z",
+      "agent": "Devin",
+      "tool": "web_search",
+      "provider": "unspecified",
+      "queries": 13,
+      "our_library_appearances": 0,
+      "elapsed_since_release_seconds": 607041,
+      "interpretation": "Registered 7-day checkpoint (~168.7h after indexing release): zero library appearances across all 13 registered queries through the Devin web_search provider, and no GitHub or www.playnow.social intermediary discovery path surfaced. This is the final scheduled observation for condition A under the seven-day window; the condition ends here with zero observed discoverability via this provider. Absence reflects only the unspecified web_search upstream index, not Google or Bing, where owner-performed diagnostics previously confirmed Google index presence."
     }
   ]
 }
