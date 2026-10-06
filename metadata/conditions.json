@@ -335,6 +335,74 @@
       "event": "wave_wrapup_analysis_recorded",
       "report": "reports/wave-1-competitor-analysis.md",
       "interpretation": "Competitor census and implications compiled across the pilot baseline and all indexing observations. Notable: sonilo.com (AudioObject JSON-LD, measured loudness, license certificate, ~4-day-old asset appearing at 7d) and beeps.studio (llms.txt, JSON API, per-sound technical parameters and usage rules) are in-market competitors shaped like planned conditions B and E."
+    },
+    {
+      "timestamp": "2026-10-06T20:41:44Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "deployed_preindex",
+      "deployment_url": "https://assets.playnow.social",
+      "vercel_deployment_id": "dpl_HySJNBc4i8Ku5YxRHnFz9vcazAXi",
+      "git_commit": "7063fc4",
+      "indexing_enabled": false,
+      "verification": {
+        "homepage_status": 200,
+        "robots_status": 200,
+        "robots_disallow_all": true,
+        "sitemap_status": 404,
+        "asset_page_status": 200,
+        "audio_status": 200,
+        "api_status": 404,
+        "jsonld_audioobject_present": true,
+        "opengraph_present": true,
+        "canonical_origin": "https://assets.playnow.social",
+        "measured_audio_section_absent": true
+      },
+      "notes": "Deployed from a clean archive of commit 7063fc4 to preserve byte-frozen corpus; the working tree contained 30 non-frozen OGG binaries. Two intermediate deploys failed smoke checks before this one: the first carried a newline-corrupted EXPERIMENT_CONDITION value and missing PUBLIC_ORIGIN (served A markup with localhost canonicals), the second hit FUNCTION_INVOCATION_FAILED because a computed require excluded server-condition-b.js from the traced bundle — fixed by literal dispatch in commit 7063fc4."
+    },
+    {
+      "timestamp": "2026-10-06T20:41:44Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "source_frozen",
+      "git_commit": "7063fc4",
+      "rationale": "Immutable source revision corresponding to the verified pre-indexing Condition B deployment."
+    },
+    {
+      "timestamp": "2026-10-06T20:43:10Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "indexing_enabled",
+      "deployment_url": "https://assets.playnow.social",
+      "vercel_deployment_id": "dpl_8tksCxmSDUfqVVGmxnYh76bToAxZ",
+      "indexing_enabled": true,
+      "methodology_commit": "7063fc4",
+      "verification": {
+        "homepage_status": 200,
+        "robots_status": 200,
+        "robots_allow_all": true,
+        "sitemap_status": 200,
+        "sitemap_url_count": 39,
+        "asset_page_status": 200,
+        "audio_status": 200,
+        "api_status": 404
+      }
+    },
+    {
+      "timestamp": "2026-10-06T20:43:34Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "indexnow_submitted",
+      "endpoint": "https://api.indexnow.org/indexnow",
+      "hosts": [
+        {"host": "assets.playnow.social", "url_count": 39, "http_status": 200}
+      ],
+      "interpretation": "Accepted for processing; HTTP 200 does not prove crawling, indexing, or ranking. Recorded as a discovery intervention consistent with the condition A procedure."
+    },
+    {
+      "timestamp": "2026-10-06T20:43:39Z",
+      "condition_id": "B-public-1.0.0",
+      "event": "screening_manifest_created",
+      "manifest": "trials/manifest_B-public-1.0.0_devin_20261006-b.json",
+      "seed": "20261006-b",
+      "run_count": 40,
+      "interpretation": "40 randomized runs (10 categories × 2 prompts × 2 repetitions) per Protocol Amendment 001. Trials must execute in fresh independent sessions; none collected yet."
     }
   ]
 }
