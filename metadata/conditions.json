@@ -299,6 +299,23 @@
       "our_library_appearances": 0,
       "elapsed_since_release_seconds": 607041,
       "interpretation": "Registered 7-day checkpoint (~168.7h after indexing release): zero library appearances across all 13 registered queries through the Devin web_search provider, and no GitHub or www.playnow.social intermediary discovery path surfaced. This is the final scheduled observation for condition A under the seven-day window; the condition ends here with zero observed discoverability via this provider. Absence reflects only the unspecified web_search upstream index, not Google or Bing, where owner-performed diagnostics previously confirmed Google index presence."
+    },
+    {
+      "timestamp": "2026-10-06T20:30:00Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "condition_observation_window_closed",
+      "window_end": "2026-10-06T19:41:33Z",
+      "checkpoints_captured": ["initial", "24h", "7d"],
+      "checkpoints_missed": ["72h"],
+      "agent_screening_trials": "not_collected",
+      "interpretation": "Condition A's seven-day window is closed with zero observed discoverability via Devin web_search. The 40-run screening manifest was never executed, so no retrieval/selection evidence exists for A; per the intervention gate this closes A and clears the way for condition B under the A → B → E screen."
+    },
+    {
+      "timestamp": "2026-10-06T20:30:00Z",
+      "condition_id": "A-public-1.0.0",
+      "event": "wave_wrapup_analysis_recorded",
+      "report": "reports/wave-1-competitor-analysis.md",
+      "interpretation": "Competitor census and implications compiled across the pilot baseline and all indexing observations. Notable: sonilo.com (AudioObject JSON-LD, measured loudness, license certificate, ~4-day-old asset appearing at 7d) and beeps.studio (llms.txt, JSON API, per-sound technical parameters and usage rules) are in-market competitors shaped like planned conditions B and E."
     }
   ]
 }
