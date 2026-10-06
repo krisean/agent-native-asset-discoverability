@@ -1,3 +1,2 @@
 const condition=String(process.env.EXPERIMENT_CONDITION||'A').toUpperCase();
-const apps={E:'../website/server',B:'../website/server-condition-b'};
-module.exports=require(apps[condition]||'../website/server-condition-a').app;
+module.exports=condition==='E'?require('../website/server').app:condition==='B'?require('../website/server-condition-b').app:require('../website/server-condition-a').app;
