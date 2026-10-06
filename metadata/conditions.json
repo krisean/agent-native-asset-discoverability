@@ -36,6 +36,25 @@
       "deployment_url": "https://assets.playnow.social",
       "indexing_enabled": false,
       "rationale": "Minimal public baseline condition; indexing remains disabled until deployment smoke checks and pre-indexing baseline capture are complete."
+    },
+    {
+      "id": "B-public-1.0.0",
+      "created_at": "2026-10-06T20:30:00Z",
+      "status": "prepared_predeployment",
+      "features": {
+        "rich_metadata": true,
+        "individual_pages": true,
+        "structured_data": true,
+        "developer_terminology": true,
+        "audio_derived_metadata": false,
+        "api": false,
+        "explicit_license": true
+      },
+      "git_commit": null,
+      "deployment_url": null,
+      "indexing_enabled": false,
+      "source": "website/server-condition-b.js",
+      "rationale": "Bundled semantic+structured screening condition under Protocol Amendment 001: rich editorial metadata, developer-oriented descriptions, explicit licensing/provenance, canonical links, OpenGraph, and AudioObject JSON-LD. Audio-derived measurements, JSON asset representations, and the retrieval API remain E-only. Not yet deployed; must ship as a separate immutable release with its own indexing_enabled event."
     }
   ],
   "events": [

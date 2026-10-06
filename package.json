@@ -7,6 +7,7 @@
     "generate": "node scripts/generate-corpus.js && node scripts/generate-queries.js",
     "start": "node website/server.js",
     "start:condition-a": "node website/server-condition-a.js",
+    "start:condition-b": "node website/server-condition-b.js",
     "test": "node --test tests/*.test.js",
     "analyze": "python analysis/analyze.py",
     "verify": "npm run generate && npm test && npm run analyze"

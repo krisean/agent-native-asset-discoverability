@@ -1,0 +1,6 @@
+const test=require('node:test');const assert=require('node:assert/strict');
+process.env.ALLOW_INDEXING='false';const {app}=require('../website/server-condition-b');let server,base;
+test.before(async()=>{server=app.listen(0);await new Promise(resolve=>server.once('listening',resolve));base=`http://127.0.0.1:${server.address().port}`});test.after(()=>server.close());
+test('Condition B has asset pages with editorial metadata and JSON-LD',async()=>{const html=await(await fetch(`${base}/assets/ui/notification/notification-01`)).text();assert.match(html,/Download OGG/);assert.match(html,/Intended game-development uses/);assert.match(html,/application\/ld\+json/);assert.match(html,/AudioObject/);assert.match(html,/og:title/);assert.doesNotMatch(html,/Measured from the audio|Asset JSON|api\/assets/);});
+test('Condition B has no agent API',async()=>{assert.equal((await fetch(`${base}/api/search?q=notification`)).status,404);assert.equal((await fetch(`${base}/api-docs`)).status,404);assert.equal((await fetch(`${base}/openapi.json`)).status,404);});
+test('prelaunch deployment blocks indexing',async()=>{assert.match(await(await fetch(`${base}/robots.txt`)).text(),/Disallow: \/$/m);assert.equal((await fetch(`${base}/sitemap.xml`)).status,404);});
